@@ -275,8 +275,8 @@
   color: #000 !important;
   font-size: 16px;
   padding: 0px 20px;
-  height: 40px;
-  line-height: 37px;
+  line-height: 10px;
+    padding-left: 1px;
 }
 
 /* acquire styling */
@@ -741,51 +741,86 @@ h2.box-sizing {
     font-family:  sans-serif;
     margin-top: 50px;
 }
-p.abc {
-    margin-right: 23px;
-    font-size: 17px;
-    font-family: math;
-}
-.box {
-    width: 58%;
-    display: block;
-    text-align: center;
-    margin-left: 264px;
-    background-color: white;
-    border: 1px solid grey;
-    border-radius: 20px;
-    box-shadow: 3px 0 13px -3px grey;
-}
-button.botton-element {
-    width: 287px;
-    padding: 17px;
-    font-size: 17px;
-    border: 0px solid;
-    border-radius: 8px;
-    background-color: #fab534;
-    margin-bottom: 10px;
-    font-family: math;
-    font-weight: 600;
-}
-h2.element-tag {
-    margin-bottom: 40px;
-    margin-top: 26px;
-    font-size: 33px;
-    font-family: math;
-    font-weight: 600;
-}
-button.button0tag {
-    width: 250px;
-    padding: 15px;
-    border: 0px solid;
-    border-radius: 7px;
-    background-color: #479974;
-    font-size: 17px;
-    color: white;
-    font-weight: 600;
-    margin-bottom: 50px
+
+.w3box {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  margin-bottom: 15px;
 }
 
+.button-png {
+  text-align: center;
+  padding-bottom: 65px;
+  margin-bottom: 95px;
+}
+
+button.png {
+  padding: 16px 46px;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: #fab354;
+}
+
+h2.box-sizing {
+  font-size: 33px;
+  letter-spacing: 1px;
+  margin-bottom: -17px;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+p.abc {
+  margin-right: 23px;
+  font-size: 17px;
+  font-family: math;
+}
+.box-tag {
+  width: 55%;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 3px 0 13px -1px grey;
+  margin-left: 23%;
+  margin-top: 6%;
+}
+
+button.botton-element {
+  width: 287px;
+  padding: 17px;
+  font-size: 17px;
+  border: 0px solid;
+  border-radius: 8px;
+  background-color: #fab534;
+  margin-bottom: 10px;
+  font-family: math;
+  font-weight: 600;
+}
+
+h2.element-tag {
+  margin-bottom: 40px;
+  margin-top: 26px;
+  font-size: 33px;
+  font-family: math;
+  font-weight: 600;
+}
+
+button.button0tag {
+  width: 250px;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 7px;
+  background-color: #479974;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 50px
+}
 /*janki integration page css code*/
 
 section.float-section {
@@ -1976,3 +2011,83 @@ input:checked + label:after {
     display: none;
 }
 
+
+
+
+
+/** mobile screen responsiv*/
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+
+  section.float-section {
+    display: block;
+    margin-top: 8%;
+}
+h2.\#tag1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding-left: 35px;
+  padding-top: 30px;
+  text-align: left;
+}
+p.\#tag2 {
+  font-size: 19px;
+  padding-left: 37px;
+  font-weight: 600;
+  font-family: system-ui;
+  text-align: left;
+}
+.float-1 img {
+  width: 100%;
+}
+ul.\#menu-ul {
+  list-style-type: none;
+  display: block;
+  padding-top: 38px;
+  padding-left: 0px !important;
+}
+.shsadow {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding-right: 15px;
+}
+.image-wraps {
+  padding: 9px;
+  width: 100%;
+  padding-inline: 10px;
+  background-color: white;
+  margin: 6px;
+  border: 2px solid transparent;
+  border-radius: 12px
+
+}
+button.request {
+  padding: 7px 20px;
+  background-color: #f8b434;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  margin-left: 75px;
+}
+h2.head-icon {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.box {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 3px 0 13px -1px grey;
+}
+}
