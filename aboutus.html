@@ -35,47 +35,64 @@
 
   <body>
     <div class="container-fluid pt-3 p-0">
-      <nav class="navbar navbar-expand-lg bg-light fixed-top pt-2 pb-2">
-        <div class="container">
-          <img src="images/logo.jpg" width="200px" />
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+      <div class="container">
+        <header id="header">
+          <div
+            class="container d-flex align-items-center justify-content-between"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Solution</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Integration</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Login</a>
-              </li>
-            </ul>
-            <button class="btn main-btn" type="submit">Start Free Trial</button>
+            <img src="images/logo.jpg" width="200px" />
+
+            <nav id="navbar" class="navbar">
+              <ul>
+                <li class="dropdown">
+                  <a class="nav-link scrollto active" href="index.html">
+                    <span>Solutions</span
+                    ><i class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                      <li><a href="#">By Feature</a></li>
+                      <li class="dropdown">
+                        <a href="#"><span>By Industries</span> </a>
+                        <ul>
+                          <li><a href="#"></a></li>
+                          <li><a href="#">Health & Wellness Brands</a></li>
+                          <li><a href="#">Beauty & Cosmetic Brands</a></li>
+                          <li><a href="#">B2B Sales</a></li>
+                          <li><a href="#">Travel and Tourism</a></li>
+                          <li><a href="#">Restaurant & Food Business</a></li>
+                          <li><a href="#">Spans and Salons</a></li>
+                          <li><a href="#">Edutech</a></li>
+                          <li><a href="#">Home Decore & Furnishing</a></li>
+                          <li><a href="#">Marketing Agency</a></li>
+                          <li><a href="#">Real Estate</a></li>
+                          <li><a href="#">Banking and Finance</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">For Enterprise</a></li>
+                    </ul>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#about">Integration</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="pricing.html">Pricing</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#portfolio">Resources</a>
+                </li>
+                <li><a class="nav-link scrollto" href="#team">About Us</a></li>
+                <li class="dropdown">
+                  <a href="#"><span>Login</span></a>
+                </li>
+                <div>
+                  <button class="btn sub-btn ms-3">Start Free Trial</button>
+                </div>
+              </ul>
+              <i class="fa-solid fa-bars bi-list bi" id="icon"></i>
+            </nav>
           </div>
-        </div>
-      </nav>
+        </header>
+      </div>
 
       <!-- section number 1 -->
       <section
