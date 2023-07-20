@@ -700,7 +700,7 @@ padding-inline: 10px;
 background-color: white;
 margin: 6px;
 border: 2px solid transparent;
-border-radius: 12px
+border-radius: 12px;
 margin-left: 0px !important;
 }
 .accordion {
@@ -744,16 +744,100 @@ border-left: 0;
 border-bottom: 0;
 border-radius: 20px;
 box-shadow: 3px 0 13px -1px grey;
-margin-left: 0px !important;
+margin-left: 0px;
 }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  .box {
+    width: 87%;
+    text-align: center;
+    background-color: white;
+    border: 0.5px solid grey;
+    border-left: 0;
+    border-bottom: 0;
+    border-radius: 20px;
+    box-shadow: 3px 0 13px -1px grey;
+    margin-left: 18%;
+}
+.accordion {
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+}
+section.slider-section1 {
+    background-color: burlywood;
+    width: 128%;
+}
+.fa-icons {
+    margin-left: 35%;
+}
+.flex-6-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    padding-left: 0px;
+    margin-right: -20%;
+}
+.h2.head-icon {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 26%;
+}
+.shsadow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 25px !important;
+    padding-right: 0px !important;
+}
+section.image-integration {
+    background-color: #004c3d;
+    width: 128%;
+}
+ul.\#menu-ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 38px;
+    padding-left: 0px !important;
+}
+.image-wraps {
+    padding: 9px;
+    width: 23%;
+    padding-inline: 10px;
+    background-color: white;
+    margin: 6px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+button.request {
+    padding: 7px 20px;
+    background-color: #f8b434;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    margin-left: 40%;
+}
+.wrap-float {
+    padding-bottom: 35px; 
+}
+}
+
 </style>
 
 <body>
 
   <nav class="navbar navbar-expand-lg bg-light fixed-top pt-2 pb-2">
     <div class="container">
-      <img src="images/logo.jpg" width="200px" />
+      <a href="index.html"><img src="images/logo.jpg" width="200px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
