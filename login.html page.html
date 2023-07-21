@@ -8,6 +8,11 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <!-- <link rel="stylesheet" href="../anand/css/Style.css" /> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
   .icon-section {
@@ -19,6 +24,16 @@
     padding: 5px;
     border-radius: 6px;
   }
+
+  .sub-btn {
+  border-radius: 10px;
+  background-color: #f8b434;
+  color: #000 !important;
+  font-size: 16px;
+  padding: 0px 20px;
+  line-height: 10px;
+  padding-left: 1px;
+}
 
   h3.h1-signin-0 {
     text-align: center;
@@ -83,12 +98,12 @@
     padding-top: 20px;
   }
 
-  a {
+  /* a {
     color: black;
     font-weight: 500;
     font-size: 21px;
     margin-left: 29%;
-  }
+  } */
 
 
   .navbar {
@@ -444,50 +459,76 @@ h5.p-tag1 {
     font-size: 20px;
     font-weight: 500;
     padding-top: 30px;
+ }
 }
-a {
+
+.clickbtn {
     color: black;
     font-weight: 500;
     font-size: 27px;
-    margin-left: 17%;
-}
+    margin-left: 29%;
   }
+  
 </style>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light fixed-top pt-2 pb-2">
+  
     <div class="container">
-      <a href="index.html"><img src="images/logo.jpg" width="200px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Solution</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="integration-1.html">Integration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.html page.html">Login</a>
-          </li>
-        </ul>
-        <button class="btn main-btn" type="submit"><a class="nav-link" href="trialpage1.html">start Free
-            Trial</a></button>
-      </div>
+         <header id="header">
+        <div class="d-flex align-items-center justify-content-between">
+          <a href="index.html"><img src="images/logo.jpg" width="200px"></a>
+
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li class="dropdown">
+                <a class="nav-link scrollto active" href="index.html">
+                  <span>Solutions</span><i class="fa-solid fa-chevron-down"></i>
+                  <ul>
+                    <li><a href="#">By Feature</a></li>
+                    <li class="dropdown">
+                      <a href="#"><span>By Industries</span> </a>
+                      <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Health & Wellness Brands</a></li>
+                        <li><a href="#">Beauty & Cosmetic Brands</a></li>
+                        <li><a href="#">B2B Sales</a></li>
+                        <li><a href="#">Travel and Tourism</a></li>
+                        <li><a href="#">Restaurant & Food Business</a></li>
+                        <li><a href="#">Spans and Salons</a></li>
+                        <li><a href="#">Edutech</a></li>
+                        <li><a href="#">Home Decore & Furnishing</a></li>
+                        <li><a href="#">Marketing Agency</a></li>
+                        <li><a href="#">Real Estate</a></li>
+                        <li><a href="#">Banking and Finance</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">For Enterprise</a></li>
+                  </ul>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="#about">Integration</a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="pricing.html">Pricing</a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="#portfolio">Resources</a>
+              </li>
+              <li><a class="nav-link scrollto" href="aboutus.html">About Us</a></li>
+              <li class="dropdown">
+                <a href="login.html page.html"><span>Login</span></a>
+              </li>
+              <div>
+                <button class="btn sub-btn ms-3"> <a href="trialpage1.html">Start Free Trial</a></button>
+              </div>
+            </ul>
+            <i class="fa-solid fa-bars bi-list bi" style="display: none" ; id="icon"></i>
+          </nav>
+        </div>
+      </header>
     </div>
-  </nav>
+  
 
 
   <section class="main-section">
@@ -521,7 +562,7 @@ a {
       <h5 class="p-tag1">Forgot Password?<br>
         Your Password was emailed to you when the account was Created.</h5>
 
-      <a href="https://www.interakt.shop/" target="blank">Click here to reset</a>
+      <a class="clickbtn" href="https://www.interakt.shop/" target="blank">Click here to reset</a>
     </div>
   </section>
 

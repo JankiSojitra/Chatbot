@@ -125,11 +125,11 @@
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -141,7 +141,7 @@
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -153,7 +153,7 @@
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -225,7 +225,7 @@
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #47b2e4;
 }
 
@@ -261,11 +261,11 @@
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #000;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
   visibility: visible !important;
 }
@@ -383,7 +383,6 @@
   display: inline;
 }
 
-
 .country ul li {
   font-size: 24px;
   line-height: 23px;
@@ -392,36 +391,6 @@
   padding: 0px 9px;
   border-right: 3px solid #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* janki start css html.index page */
 
@@ -468,11 +437,10 @@
   justify-content: center;
   margin-top: -22px;
   padding-left: 0px;
-
 }
 
 .navigation-section {
-  background-color: #004C3D;
+  background-color: #004c3d;
   color: white;
   width: 100%;
 }
@@ -505,7 +473,7 @@ button.learn {
   padding: 12px 12px;
   width: 170px;
   border: 3px solid #fab534;
-  background-color: #004C3D;
+  background-color: #004c3d;
   color: white;
   border-radius: 12px;
 }
@@ -571,7 +539,6 @@ li.active {
   padding-bottom: 0px;
   padding-top: 0px;
 }
-
 
 .icon-paragraph {
   margin-left: 20px;
@@ -753,9 +720,8 @@ h2.logo1 {
 h3.logo2 {
   text-align: center;
   font-size: 23px;
-  color: #CBF2E4;
+  color: #cbf2e4;
   font-family: sans-serif;
-
 }
 
 .button-png {
@@ -864,7 +830,7 @@ button.button0tag {
   font-size: 17px;
   color: white;
   font-weight: 600;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 /*janki integration page css code*/
@@ -912,7 +878,7 @@ section.image-integration {
   flex-wrap: wrap;
   justify-content: start;
   padding-left: 100px;
-  padding-right: 100px
+  padding-right: 100px;
 }
 
 .image-wraps img {
@@ -941,7 +907,6 @@ h3.\#wrap-1 {
 h4.\#wrap-color {
   font-size: 16px;
   color: gray;
-
 }
 
 h2.\#heading {
@@ -1153,7 +1118,7 @@ button.button0tag {
   font-size: 17px;
   color: white;
   font-weight: 600;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .accordion-item {
@@ -1214,9 +1179,7 @@ button.button0tag {
   border-right: 3px solid #fff;
 }
 
-
 /* anand pricing css code*/
-
 
 * {
   margin: 0;
@@ -1343,11 +1306,11 @@ navbar styling */ #header {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -1359,7 +1322,7 @@ navbar styling */ #header {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -1371,7 +1334,7 @@ navbar styling */ #header {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -1442,7 +1405,7 @@ navbar styling */ #header {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #47b2e4;
 }
 
@@ -1478,11 +1441,11 @@ navbar styling */ #header {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #000;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
   visibility: visible !important;
 }
@@ -1525,15 +1488,6 @@ nav ul ul li {
   display: inline-item;
 } */
 
-.sub-btn {
-  border-radius: 10px;
-  background-color: #f8b434;
-  color: #000 !important;
-  font-size: 16px;
-  padding: 0px 20px;
-  height: 40px;
-  line-height: 37px;
-}
 
 /* acquire styling */
 
@@ -1816,11 +1770,11 @@ label:after {
   transition: 0.3s;
 }
 
-input:checked+label {
+input:checked + label {
   background-color: #fab534;
 }
 
-input:checked+label:after {
+input:checked + label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
@@ -1922,7 +1876,6 @@ input:checked+label:after {
 
 /*anand about us page css code*/
 
-
 .about-style {
   height: auto;
 }
@@ -1973,12 +1926,6 @@ input:checked+label:after {
   color: #fff;
   cursor: pointer;
 }
-
-
-
-
-
-
 
 /* Slider */
 .slick-slider {
@@ -2041,7 +1988,7 @@ input:checked+label:after {
 .slick-track:after {
   display: table;
 
-  content: '';
+  content: "";
 }
 
 .slick-track:after {
@@ -2060,7 +2007,7 @@ input:checked+label:after {
   min-height: 1px;
 }
 
-[dir='rtl'] .slick-slide {
+[dir="rtl"] .slick-slide {
   float: right;
 }
 
@@ -2096,12 +2043,7 @@ input:checked+label:after {
   display: none;
 }
 
-
-
-
-
 /** mobile screen responsiv*/
-
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   .main-btn {
@@ -2121,24 +2063,24 @@ input:checked+label:after {
     padding: 13px;
     margin: auto;
   }
- .image {
+  .image {
     display: block;
     width: 100%;
     padding-bottom: 30px;
     margin-top: -22px;
     padding-left: 0px;
   }
-.w3-image img {
+  .w3-image img {
     width: 355px;
     height: 260px;
   }
-.w3-image {
+  .w3-image {
     width: 100% !important;
   }
- .float-1 {
+  .float-1 {
     display: block;
   }
-.button.sign-up {
+  .button.sign-up {
     padding: 15px 12px;
     width: 100%;
     border: 1px solid black;
@@ -2148,29 +2090,29 @@ input:checked+label:after {
     margin: auto;
     margin-bottom: 15px;
   }
- .hello-flex {
+  .hello-flex {
     display: block;
     justify-content: space-around;
     margin-right: 35px;
     margin-left: 35px;
   }
-.image-elemant-2 img {
+  .image-elemant-2 img {
     width: 45%;
     height: auto;
     margin: 2px;
   }
-.image-elemant-2 {
+  .image-elemant-2 {
     display: block;
     margin-bottom: 40px;
     margin: auto;
   }
-.button-png {
+  .button-png {
     text-align: center;
     padding-bottom: 30px;
     margin-bottom: 0px;
     margin-top: 25px;
   }
-.box-tag {
+  .box-tag {
     width: 100%;
     text-align: center;
     background-color: white;
