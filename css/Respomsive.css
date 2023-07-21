@@ -31,6 +31,18 @@
   .right_arrow3 {
     display: none !important;
   }
+
+  .iframe {
+    width: 100% !important;
+  }
+
+  .left_arrow {
+    left: 44%;
+  }
+
+  .right_arrow {
+    left: 56%;
+  }
 }
 
 @media (max-width: 675px) {
