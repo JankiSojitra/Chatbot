@@ -82,14 +82,15 @@
     font-weight: 500;
     padding-top: 20px;
   }
-
   a {
+    margin: auto;
     color: black;
     font-weight: 500;
     font-size: 21px;
-    margin-left: 29%;
-  }
-
+    margin-left: 0px !important;
+    display: block;
+    text-align: center;
+}
 
   .navbar {
     padding: 0;
@@ -108,9 +109,12 @@
   }
 
   li.nav-item {
-    margin-right: 23px;
+    margin-right: 5px !important;
   }
-
+  button.btn.main-btn {
+    background-color: #fab534;
+    margin-right: -29px !important;
+}
   a.nav-link {
     text-align: center;
     margin-left: 0px;
@@ -311,9 +315,14 @@
     color: #000;
     background-color: #fab534;
     border-radius: 8px;
-    padding: 15px 25px 12px 25px;
     width: 19%;
+    width: 17%;
+    padding: 1px !important;
   }
+
+  a.nav-link {
+    padding-left: 20px !important;
+}
 
 
   .main-btn:hover {
@@ -355,107 +364,118 @@
     display: block;
     visibility: visible !important;
   }
-  @media only screen and (min-width: 200px) and (max-width: 767px)  {
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     .icon-section {
-    display: flex;
-    width: 87%;
-    justify-content: center;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 6px;
-    margin-left: 7%;
-}
-.sign-inside {
-    background-color: #14977d;
-    text-align: center;
-    width: 65%;
-    margin-left: 18%;
-    margin-top: 18px;
-    padding: 1px;
-    padding-top: 4px;
-    color: white;
-    border-radius: 9px;
-}
-h5.p-tag1 {
-    margin-left: 6%;
-    font-size: 17px;
-    font-weight: 500;
-    padding-top: 20px;
-}
-input#Email\ Address {
-    width: 89%;
-    margin-top: 40px;
-    padding: 6px 8px 8px;
-    border: 1px solid gray;
-    border-radius: 7px;
-    margin-left: 6%;
-}
-input#Password {
-    margin-left: 6%;
-    width: 89%;
-    margin-top: 15px;
-    padding: 6px 8px 8px;
-    border: 1px solid gray;
-    border-radius: 7px;
-}
+      display: flex;
+      width: 87%;
+      justify-content: center;
+      border: 1px solid black;
+      padding: 5px;
+      border-radius: 6px;
+      margin-left: 7%;
+      margin-top: 21%;
+    }
+
+    .sign-inside {
+      background-color: #14977d;
+      text-align: center;
+      width: 65%;
+      margin-left: 18%;
+      margin-top: 18px;
+      padding: 1px;
+      padding-top: 4px;
+      color: white;
+      border-radius: 9px;
+    }
+
+    h5.p-tag1 {
+      margin-left: 6%;
+      font-size: 17px;
+      font-weight: 500;
+      padding-top: 20px;
+    }
+
+    input#Email\ Address {
+      width: 89%;
+      margin-top: 40px;
+      padding: 6px 8px 8px;
+      border: 1px solid gray;
+      border-radius: 7px;
+      margin-left: 6%;
+    }
+
+    input#Password {
+      margin-left: 6%;
+      width: 89%;
+      margin-top: 15px;
+      padding: 6px 8px 8px;
+      border: 1px solid gray;
+      border-radius: 7px;
+    }
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .icon-section {
-    display: flex;
-    border: 2px solid gray;
-    width: 65%;
-    justify-content: center;
-    margin-left: 18%;
-    padding: 5px;
-    border-radius: 6px;
-}
-input#Email\ Address {
-    margin-left: 18%;
-    width: 64%;
-    margin-top: 40px;
-    padding: 6px 8px 19px;
-    border: 1px solid gray;
-    border-radius: 7px;
-    font-size: 25px;
-}
-input#Password {
-    margin-left: 18%;
-    width: 64%;
-    margin-top: 15px;
-    padding: 6px 8px 16px;
-    border: 1px solid gray;
-    border-radius: 7px;
-    font-size: 25px;
-}
-.sign-inside {
-    background-color: #14977d;
-    text-align: center;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 41px;
-    padding: 22px;
-    padding-top: 18px;
-    color: white;
-    border-radius: 9px;
-}
-h5.p-tag1 {
-    margin-left: 17%;
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 30px;
-}
-a {
-    color: black;
-    font-weight: 500;
-    font-size: 27px;
-    margin-left: 17%;
-}
+      display: flex;
+      border: 2px solid gray;
+      width: 65%;
+      justify-content: center;
+      margin-left: 18%;
+      padding: 5px;
+      border-radius: 6px;
+    }
+
+    input#Email\ Address {
+      margin-left: 18%;
+      width: 64%;
+      margin-top: 40px;
+      padding: 6px 8px 19px;
+      border: 1px solid gray;
+      border-radius: 7px;
+      font-size: 25px;
+    }
+
+    input#Password {
+      margin-left: 18%;
+      width: 64%;
+      margin-top: 15px;
+      padding: 6px 8px 16px;
+      border: 1px solid gray;
+      border-radius: 7px;
+      font-size: 25px;
+    }
+
+    .sign-inside {
+      background-color: #14977d;
+      text-align: center;
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 41px;
+      padding: 22px;
+      padding-top: 18px;
+      color: white;
+      border-radius: 9px;
+    }
+
+    h5.p-tag1 {
+      margin-left: 17%;
+      font-size: 20px;
+      font-weight: 500;
+      padding-top: 30px;
+    }
+
+    a {
+      color: black;
+      font-weight: 500;
+      font-size: 27px;
+      margin-left: 17%;
+    }
   }
 </style>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light fixed-top pt-2 pb-2">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top pb-2">
     <div class="container">
       <a href="index.html"><img src="images/logo.jpg" width="200px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
