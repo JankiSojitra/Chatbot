@@ -1,710 +1,849 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!-- costume css  -->
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="stylesheet" href="css/Respomsive.css" />
+    <link rel="stylesheet" href="css/slick.css" />
 
-  <!-- costume css  -->
-  <link rel="stylesheet" href="css/Style.css" />
-  <link rel="stylesheet" href="css/Respomsive.css" />
-  <link rel="stylesheet" href="css/slick.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-  <!-- font awesome cdn link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <div class="container-fluid p-0">
-    <div class="container">
-      <header id="header">
-        <div class="container d-flex align-items-center justify-content-between">
-          <a href="index.html"><img src="images/logo.jpg" width="200px"></a>
-
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li class="dropdown">
-                <a class="nav-link scrollto active" href="index.html">
-                  <span>Solutions</span><i class="fa-solid fa-chevron-down"></i>
-                  <ul>
-                    <li><a href="#">By Feature</a></li>
-                    <li class="dropdown">
-                      <a href="#"><span>By Industries</span> </a>
-                      <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#">Health & Wellness Brands</a></li>
-                        <li><a href="#">Beauty & Cosmetic Brands</a></li>
-                        <li><a href="#">B2B Sales</a></li>
-                        <li><a href="#">Travel and Tourism</a></li>
-                        <li><a href="#">Restaurant & Food Business</a></li>
-                        <li><a href="#">Spans and Salons</a></li>
-                        <li><a href="#">Edutech</a></li>
-                        <li><a href="#">Home Decore & Furnishing</a></li>
-                        <li><a href="#">Marketing Agency</a></li>
-                        <li><a href="#">Real Estate</a></li>
-                        <li><a href="#">Banking and Finance</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">For Enterprise</a></li>
-                  </ul>
-                </a>
-              </li>
-              <li>
-                <a class="nav-link scrollto" href="integration-1.html">Integration</a>
-              </li>
-              <li>
-                <a class="nav-link scrollto" href="pricing.html">Pricing</a>
-              </li>
-              <li>
-                <a class="nav-link scrollto" href="#portfolio">Resources</a>
-              </li>
-              <li><a class="nav-link scrollto" href="aboutus.html">About Us</a></li>
-              <li class="dropdown">
-                <a href="login.html page.html"><span>Login</span></a>
-              </li>
-              <div>
-                <button class="btn main-btn"> <a href="trialpage1.html">Start Free Trial</a></button>
-              </div>
-            </ul>
-            <i class="fa-solid fa-bars bi-list bi" style="display: none" ; id="icon"></i>
-          </nav>
-        </div>
-      </header>
-    </div>
-
-    <div style="background: #014b3c" class="pb-5">
-      <div class="container d-flex flex-wrap">
-        <div class="d-flex pricing mx-auto">
-          <span><i class="fa-brands fa-whatsapp pe-2" style="color: #fff; font-size: 20px"></i></span>
-          <span class="text-white"> Official WhatsApp Business Platform</span>
-        </div>
-      </div>
-      <h1 class="text-center fw-bolder text-white pt-4">
-        Spend less, save more with super <br />
-        affordable plans & pricing
-      </h1>
-      <p class="text-center text-white fw-bold pt-4 pb-3" style="font-size: 16px">
-        Start a 14-day Free Trial | No credit card | No setup cost
-      </p>
-    </div>
-  </div>
-
-  <div class="container-fluid p-0">
-    <section class="pricing-section" style="background: #fff2da" id="services">
-      <div class="container p-0">
-        <h1 class="text-center pt-4">Pricing</h1>
-
-        <div class="pt-4 d-flex justify-content-center align-items-center">
-          <h3>Monthly</h3>
-          <input type="checkbox" id="switch" /><label for="switch" class="ms-3">Toggle</label>
-          <h3 class="ps-3">Annual</h3>
-          <span class="ms-3 text-white fw-bold" style="background: #fab534">20% off</span>
-        </div>
-        <div class="row justify-content-center align-items-center pt-5">
-          <div class="col-lg-3 col-md-6 col-sm-12 px-0">
-            <div class="card text-center p-3 rounded-5 pricing-plan">
-              <h2 class="fw-bold">Start Plane</h2>
-              <h3 class="fw-bold"><i>₹</i><span>999</span></h3>
-              <div class="plush-text">
-                <h4>
-                  + Taxes*
-                  <span>Per Month</span>
-                </h4>
-              </div>
-              <button class="btn btn-primary rounded-5">
-                Start 14 Day Free Trial
-              </button>
-              <div class="price-content-box">
-                <h5 class="text-center pt-3">
-                  <span>1000 free Service conversations/month <br />
-                    <a href="https://developers.facebook.com/docs/whatsapp/updates-to-pricing"
-                      style="font-size: 12px; color: blue" target="_blank" rel="noopener">(see new changes applicable
-                      from June 1, 2023)</a>
-                    <br />
-                    <br />
-                    apart from free Service <br />
-                    conversations,
-                  </span>
-                </h5>
-                <h4 class="text-start">
-                  Rs.0.82 per
-                  <span>Marketing <br />
-                    Conversation</span>
-                </h4>
-                <h4 class="text-start">
-                  Rs.0.35 per <span>all other Conversation</span>
-                </h4>
-                <p class="emtag">
-                  (Above rates for Indian destination numbers only)
-                </p>
-              </div>
-              <div class="price-fuature-list">
-                <ul class="list-unstyled">
-                  <li>Unlimited team members</li>
-                  <li>Free WhatsApp API approval and setup</li>
-                  <li>Chat automation (OOO, Welcome Message)</li>
-                  <li>
-                    Bulk WhatsApp notifications and campaign analytics >
-                  </li>
-                  <li>
-                    WhatsApp Shared Team Inbox with quick replies, agent
-                    assignment, labels and more
-                  </li>
-                  <li>Track users for Order related, At risk, Lost events</li>
-                  <li>Upto 1 app integration</li>
-                  <li>Unlimited Live Chat conversations</li>
-                  <li>48 hours SLA for Support</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 px-0">
-            <div class="card text-center p-3 rounded-5 pricing-plan">
-              <h2 class="fw-bold">Growth Plan</h2>
-              <h3 class="fw-bold"><i>₹</i><span>2,499</span></h3>
-              <div class="plush-text">
-                <h4>
-                  + Taxes*
-                  <span>Per Month</span>
-                </h4>
-              </div>
-              <button class="text-white btn rounded-5" style="background: #05a68b">
-                Start 14 Day Free Trial
-              </button>
-              <div class="price-content-box">
-                <h5 class="text-center pt-3">
-                  <span>1000 free Service conversations/month <br />
-                    <a href="https://developers.facebook.com/docs/whatsapp/updates-to-pricing"
-                      style="font-size: 12px; color: blue" target="_blank" rel="noopener">(see new changes applicable
-                      from June 1, 2023)</a>
-                    <br />
-                    <br />
-                    apart from free Service <br />
-                    conversations,
-                  </span>
-                </h5>
-                <h4 class="text-start">
-                  Rs.0.81 per
-                  <span>Marketing <br />
-                    Conversation</span>
-                </h4>
-                <h4 class="text-start">
-                  Rs.0.34 per <span>all other Conversation</span>
-                </h4>
-                <p class="emtag">
-                  (Above rates for Indian destination numbers only)
-                </p>
-              </div>
-              <h4 class="mb-3" style="font-size: 18px; font-weight: 600">
-                Everything in <span class="text-primary">Starter</span>, plus
-              </h4>
-              <div class="price-fuature-list">
-                <ul class="list-unstyled">
-                  <li>Advanced Campaign Filters</li>
-                  <li>Conversation Analytics</li>
-                  <li>
-                    Additional Chat automation (Delayed Message, Custom auto
-                    replies)
-                  </li>
-                  <li>Roles & Permissions</li>
-                  <li>24 hours SLA for Support</li>
-                  <li>Upto 3 app integrations</li>
-                  <li>Additional user segments: Repeat, Recovered</li>
-                  <li>
-                    Developer APIs access to: Template/Message send API,
-                    Message Status Webhooks
-                  </li>
-                  <li>Rate Limit - 300 API calls/min</li>
-                  <li>Automated Workflow</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 px-0">
-            <div class="card text-center p-3 rounded-5 pricing-plan">
-              <h2 class="fw-bold">Advanced</h2>
-              <h3 class="fw-bold"><i>₹</i><span>3499</span></h3>
-              <div class="plush-text">
-                <h4>
-                  + Taxes*
-                  <span>Per Month</span>
-                </h4>
-              </div>
-              <button class="btn rounded-5" style="background: #f09e04">
-                Start 14 Day Free Trial
-              </button>
-              <div class="price-content-box">
-                <h5 class="text-center pt-3">
-                  <span>1000 free Service conversations/month <br />
-                    <a href="https://developers.facebook.com/docs/whatsapp/updates-to-pricing"
-                      style="font-size: 12px; color: blue" target="_blank" rel="noopener">(see new changes applicable
-                      from June 1, 2023)</a>
-                    <br />
-                    <br />
-                    apart from free Service <br />
-                    conversations,
-                  </span>
-                </h5>
-                <h4 class="text-start">
-                  Rs.0.80 per
-                  <span>Marketing <br />
-                    Conversation</span>
-                </h4>
-                <h4 class="text-start">
-                  Rs.0.33 per <span>all other Conversation</span>
-                </h4>
-                <p class="emtag">
-                  (Above rates for Indian destination numbers only)
-                </p>
-              </div>
-              <h4 class="mb-3" style="font-size: 18px; font-weight: 600">
-                Everything in <span class="text-success">Growth</span>, plush
-              </h4>
-              <div class="price-fuature-list">
-                <ul class="list-unstyled">
-                  <li>🔥 Click to WhatsApp Ads Analytics Dashboard</li>
-                  <li>Unlimited external apps integration allowed</li>
-                  <li>Additional User Segments - Loyal, High spenders</li>
-                  <li>
-                    Developer APIs access to: Sessions message, Incoming
-                    messages
-                  </li>
-                  <li>Rate Limit - 600 API calls/min</li>
-                  <li>Agent Statistics</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 px-0">
-            <div class="card text-center p-3 rounded-5 pricing-plan">
-              <h2 class="fw-bold">Enterprise</h2>
-              <h4 class="pt-4 pb-4">
-                Annual Platform <br />
-                Fees
-              </h4>
-              <button class="btn rounded-5 mb-4 text-white" style="background: #34bc47">
-                Start 14 Day Free Trial
-              </button>
-              <div class="price-content-box">
-                <h5 class="text-center">
-                  <span>Unlimited conversations per year</span>
-                </h5>
-                <p class="emtag">
-                  (Above rates for Indian destination numbers only)
-                </p>
-              </div>
-              <h4 class="pb-4" style="font-size: 18px; font-weight: 600">
-                Everything in <span class="text-warning">Advanced</span>, plus
-              </h4>
-              <div class="price-fuature-list">
-                <ul class="list-unstyled">
-                  <li>No Markup Charges</li>
-                  <li>Faster Message Delivery Speed</li>
-                  <li>Unlimited External Apps Integrations Allowed</li>
-                  <li>Customer Success Manage</li>
-                  <li>AI Chatbot Upgrade Available</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="pricing-text">
-            <p class="pt-4">
-              *Total monthly billing = Subscription Charges based on your plan
-              + Conversational charges above free limit
-            </p>
-            <span class="text-decoration-underline">
-              <a href="#">
-                <span class="text-primary fw-bold">For more information on how the pricing structure works,
-                  click here</span>
-              </a>
-            </span>
-            <p class="pt-3 text-decoration-underline">
-              <a href="#">
-                <span class="fw-bold">For country-wise conversational charges, click here</span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section style="background-color: #064e3b" class="mt-4">
+  <body>
+    <div class="container-fluid p-0">
       <div class="container">
-        <div class="row">
-          <div main class="logo">
-            <h2 class="logo1">15+ WhatsApp Business Integrations</h2>
-            <h3 class="logo2">
-              Enjoy seamless integrations with your favorite e-stores, CRMs,
-              and more.
-            </h3>
-
-            <div class="image-elemant-2">
-              <img src="images/Frame 1.png" alt="Image 1" />
-              <img src="images/Frame 2.png" alt="Image 2" />
-              <img src="images/Frame 3.png" alt="Image 3" />
-              <img src="images/Frame 4.png" alt="Image 4" />
-              <img src="images/Frame 5.png" alt="Image 5" />
-              <img src="images/Frame 6.png" alt="Image 6" />
-              <img src="images/Frame 7.png" alt="Image 7" />
-              <img src="images/Frame 8.png" alt="Image 8" />
-              <img src="images/Frame 9.png" alt="Image 9" />
-              <img src="images/Frame 10.png" alt="Image 10" />
-              <img src="images/Frame 11.png" alt="Image 11" />
-              <img src="images/Frame 12.png" alt="Image 12" />
-              <img src="images/Frame 13.png" alt="Image 13" />
-            </div>
-            <div class="button-png">
-              <a href="https://www.interakt.shop/" target="blank"><button class="png">
-                  WhatsApp Business API integrations
-                </button></a>
-            </div>
-          </div>
-
-          <h1 class="text-center text-white">Frequently Asked Questions</h1>
-
-          <div class="accordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                  aria-expanded="true" aria-controls="collapse1">
-                  When can I start using Interakt?
-                </button>
-              </h2>
-              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
-                data-bs-parent=".accordion">
-                <div class="accordion-body">
-                  <p>
-                    As an official WhatsApp Business service provider,
-                    Interakt helps you grow your online sales and transform
-                    customer experience at scale. If you’re looking to boost
-                    your revenue by leveraging WhatsApp as a sales channel,
-                    you can start using Interakt anytime. We also offer a
-                    14-day free trial program, you can start using Interakt
-                    within minutes of signing up with us. You can also reach
-                    out to our support team and we get things done for you at
-                    NO extra costs.
-                    <br />
-                    <br />
-                    Watch this video to learn how to get started with your
-                    14-day free trial.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading2">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
-                  aria-expanded="false" aria-controls="collapse2">
-                  How does Interakt's 14-day free trial work?
-                </button>
-              </h2>
-              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                data-bs-parent=".accordion">
-                <div class="accordion-body">
-                  <p>
-                    In our 14-day free trial program, you get access to the
-                    entire stack of power-packed features on Interakt for
-                    FREE. You get to use all the top-notch features and even
-                    if your Facebook business verification is pending, you
-                    still get to explore your inbox features with limited
-                    messaging options.
-                    <br />
-                    <br />
-                    Before you complete the Facebook business verification
-                    process, WhatsApp will approve your number to be used for
-                    sending messages in a restricted manner. Facebook permits
-                    businesses to get started right away with limited
-                    messaging options, so that businesses can explore how
-                    WhatsApp Business APIs can power-up communication and
-                    customer engagement. Facebook also uses this time to
-                    ensure that they’re accepting authentic businesses to keep
-                    the WhatsApp community spam-free.
-                    <br />
-                    <br />
-                    Make the best use of Interakt’s free trial period to
-                    explore all the features that we've built for your
-                    business.
-                    <br />
-                    <br />
-                    During your free trial period, we aid you with the process
-                    for business verification which usually takes between 3
-                    business days to 4 weeks. Once you get verified, your
-                    unlimited messaging access is activated automatically on
-                    Interakt.
-                    <br />
-                    Watch this video to learn more.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading3">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
-                  aria-expanded="false" aria-controls="collapse3">
-                  What are the messaging restrictions during the 14-day free
-                  trial period?
-                </button>
-              </h2>
-              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                data-bs-parent=".accordion">
-                <div class="accordion-body">
-                  <p>
-                    During the 14-day free trial period, while you will have
-                    FREE access to all the amazing features on Interakt, there
-                    may be certain restrictions on messaging if your Facebook
-                    Business Verification is pending. These restrictions can
-                    be- - You can receive an unlimited number of messages from
-                    your users but you can only chat with 10 unique users per
-                    day during this period. - You can send notifications to 2
-                    unique users in a day. Notifications can be sent using
-                    WhatsApp templates that are pre-approved by Facebook.
-                    Please note: You need to complete your Facebook business
-                    verification before your trial access expires in 14 days.
-                    Your trial access allows you to send messages to a limited
-                    set of phone numbers before your business is verified.
-                    Once your business verification is complete, you will have
-                    access to more functionality on your account.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading4">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
-                  aria-expanded="false" aria-controls="collapse4">
-                  How does your WhatsApp Business account work before your
-                  Facebook Business Page is verified?
-                </button>
-              </h2>
-              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                data-bs-parent=".accordion">
-                <div class="accordion-body">
-                  <p>
-                    When you create a WhatsApp business account, you'll need
-                    to verify your Facebook business page. This may require
-                    documents such as a certificate of incorporation or a
-                    business license.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse2">
-                  How does Interakt's 14-day free trial work?
-                </button>
-              </h2>
-              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
-                data-bs-parent=".accordion">
-                <div class="accordion-body">
-                  <p>
-                    In our 14-day free trial program, you get access to the
-                    entire stack of power-packed features on Interakt for
-                    FREE. You get to use all the top-notch features and even
-                    if your Facebook business verification is pending, you
-                    still get to explore your inbox features with limited
-                    messaging options.
-                    <br />
-                    <br />
-                    Before you complete the Facebook business verification
-                    process, WhatsApp will approve your number to be used for
-                    sending messages in a restricted manner. Facebook permits
-                    businesses to get started right away with limited
-                    messaging options, so that businesses can explore how
-                    WhatsApp Business APIs can power-up communication and
-                    customer engagement. Facebook also uses this time to
-                    ensure that they're accepting authentic businesses to keep
-                    the WhatsApp community spam-free.
-                    <br />
-                    <br />
-                    Make the best use of Interact's free trial period to
-                    explore all the features that we've built for your
-                    business.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading6">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                  How does Interakt's 14-day free trial work?
-                </button>
-              </h2>
-              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
-                data-bs-parent=".accordion">
-                <div class="accordion-body">
-                  <p>
-                    In our 14-day free trial program, you get access to the
-                    entire stack of power-packed features on Interakt for
-                    FREE. You get to use all the top-notch features and even
-                    if your Facebook business verification is pending, you
-                    still get to explore your inbox features with limited
-                    messaging options.
-                    <br />
-                    <br />
-                    Before you complete the Facebook business verification
-                    process, WhatsApp will approve your number to be used for
-                    sending messages in a restricted manner. Facebook permits
-                    businesses to get started right away with limited
-                    messaging options, so that businesses can explore how
-                    WhatsApp Business APIs can power-up communication and
-                    customer engagement. Facebook also uses this time to
-                    ensure that they’re accepting authentic businesses to keep
-                    the WhatsApp community spam-free.
-                    <br />
-                    <br />
-                    Make the best use of Interakt’s free trial period to
-                    explore all the features that we've built for your
-                    business.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- live demo section -->
-    <section class="pt-5">
-      <div class="container text-center">
-        <div main class="element-html">
-          <div class="box">
-            <h2 class="box-sizing">Get Started with Interakt Today</h2>
-
-            <ul class="w3box pb-4 mb-0">
-              <li class="abc">Drive Sales & Customer Experience</li>
-              <li class="abc">No Set-up Costs</li>
-              <li class="abc">No Surcharge on Notifications</li>
-            </ul>
-
-            <button class="btn main-btn fw-600 ps-5 fs-5 mt-3 mb-3 pe-5">
-              Try Interakt For Free
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+          <div class="container">
+            <a href="index.html" id="img"
+              ><img src="images/logo.jpg" width="200px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Solution</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="integration-1.html">Integration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html page.html">Login</a>
+                </li>
+              </ul>
+              <button class="btn main-btn" type="submit">
+                <a href="trialpage1.html" id="button">start Free Trial</a>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-            <h2 class="pt-4 pb-3 fs-3 fw-bold">Get More Question?</h2>
-
-            <button class="btn btn-success mt-4 mb-3">Get A Live Demo</button>
+      <div style="background: #014b3c" class="pb-5">
+        <div class="container d-flex flex-wrap">
+          <div class="d-flex pricing mx-auto">
+            <span
+              ><i
+                class="fa-brands fa-whatsapp pe-2"
+                style="color: #fff; font-size: 20px"
+              ></i
+            ></span>
+            <span class="text-white"> Official WhatsApp Business Platform</span>
           </div>
         </div>
+        <h1 class="text-center fw-bolder text-white pt-4">
+          Spend less, save more with super <br />
+          affordable plans & pricing
+        </h1>
+        <p
+          class="text-center text-white fw-bold pt-4 pb-3"
+          style="font-size: 16px"
+        >
+          Start a 14-day Free Trial | No credit card | No setup cost
+        </p>
       </div>
-    </section>
+    </div>
 
-    <!-- footer section -->
+    <div class="container-fluid p-0">
+      <section
+        class="pricing-section"
+        style="background: #fff2da"
+        id="services"
+      >
+        <div class="container p-0">
+          <h1 class="text-center pt-4">Pricing</h1>
 
-    <section class="footer mt-5" style="background: #014d3e">
-      <div class="container">
-        <div class="row pt-5">
-          <div class="col-lg-5 col-md-6 text-white">
-            <img src="images/logo-removebg-preview.png" alt="logo" width="250" />
-            <div class="jioproduct">
-              <img src="images/footer img 2.png" width="290" class="pt-3" />
+          <div class="pt-4 d-flex justify-content-center align-items-center">
+            <h3>Monthly</h3>
+            <input type="checkbox" id="switch" /><label
+              for="switch"
+              class="ms-3"
+              >Toggle</label
+            >
+            <h3 class="ps-3">Annual</h3>
+            <span class="ms-3 text-white fw-bold" style="background: #fab534"
+              >20% off</span
+            >
+          </div>
+          <div class="row justify-content-center align-items-center pt-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 px-0">
+              <div class="card text-center p-3 rounded-5 pricing-plan">
+                <h2 class="fw-bold">Start Plane</h2>
+                <h3 class="fw-bold"><i>₹</i><span>999</span></h3>
+                <div class="plush-text">
+                  <h4>
+                    + Taxes*
+                    <span>Per Month</span>
+                  </h4>
+                </div>
+                <button class="btn btn-primary rounded-5">
+                  Start 14 Day Free Trial
+                </button>
+                <div class="price-content-box">
+                  <h5 class="text-center pt-3">
+                    <span
+                      >1000 free Service conversations/month <br />
+                      <a
+                        href="https://developers.facebook.com/docs/whatsapp/updates-to-pricing"
+                        style="font-size: 12px; color: blue"
+                        target="_blank"
+                        rel="noopener"
+                        >(see new changes applicable from June 1, 2023)</a
+                      >
+                      <br />
+                      <br />
+                      apart from free Service <br />
+                      conversations,
+                    </span>
+                  </h5>
+                  <h4 class="text-start">
+                    Rs.0.82 per
+                    <span
+                      >Marketing <br />
+                      Conversation</span
+                    >
+                  </h4>
+                  <h4 class="text-start">
+                    Rs.0.35 per <span>all other Conversation</span>
+                  </h4>
+                  <p class="emtag">
+                    (Above rates for Indian destination numbers only)
+                  </p>
+                </div>
+                <div class="price-fuature-list">
+                  <ul class="list-unstyled">
+                    <li>Unlimited team members</li>
+                    <li>Free WhatsApp API approval and setup</li>
+                    <li>Chat automation (OOO, Welcome Message)</li>
+                    <li>
+                      Bulk WhatsApp notifications and campaign analytics >
+                    </li>
+                    <li>
+                      WhatsApp Shared Team Inbox with quick replies, agent
+                      assignment, labels and more
+                    </li>
+                    <li>Track users for Order related, At risk, Lost events</li>
+                    <li>Upto 1 app integration</li>
+                    <li>Unlimited Live Chat conversations</li>
+                    <li>48 hours SLA for Support</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="jioproduct">
-              <img src="images/footer img 3.png" width="290" class="pt-3" />
+            <div class="col-lg-3 col-md-6 col-sm-12 px-0">
+              <div class="card text-center p-3 rounded-5 pricing-plan">
+                <h2 class="fw-bold">Growth Plan</h2>
+                <h3 class="fw-bold"><i>₹</i><span>2,499</span></h3>
+                <div class="plush-text">
+                  <h4>
+                    + Taxes*
+                    <span>Per Month</span>
+                  </h4>
+                </div>
+                <button
+                  class="text-white btn rounded-5"
+                  style="background: #05a68b"
+                >
+                  Start 14 Day Free Trial
+                </button>
+                <div class="price-content-box">
+                  <h5 class="text-center pt-3">
+                    <span
+                      >1000 free Service conversations/month <br />
+                      <a
+                        href="https://developers.facebook.com/docs/whatsapp/updates-to-pricing"
+                        style="font-size: 12px; color: blue"
+                        target="_blank"
+                        rel="noopener"
+                        >(see new changes applicable from June 1, 2023)</a
+                      >
+                      <br />
+                      <br />
+                      apart from free Service <br />
+                      conversations,
+                    </span>
+                  </h5>
+                  <h4 class="text-start">
+                    Rs.0.81 per
+                    <span
+                      >Marketing <br />
+                      Conversation</span
+                    >
+                  </h4>
+                  <h4 class="text-start">
+                    Rs.0.34 per <span>all other Conversation</span>
+                  </h4>
+                  <p class="emtag">
+                    (Above rates for Indian destination numbers only)
+                  </p>
+                </div>
+                <h4 class="mb-3" style="font-size: 18px; font-weight: 600">
+                  Everything in <span class="text-primary">Starter</span>, plus
+                </h4>
+                <div class="price-fuature-list">
+                  <ul class="list-unstyled">
+                    <li>Advanced Campaign Filters</li>
+                    <li>Conversation Analytics</li>
+                    <li>
+                      Additional Chat automation (Delayed Message, Custom auto
+                      replies)
+                    </li>
+                    <li>Roles & Permissions</li>
+                    <li>24 hours SLA for Support</li>
+                    <li>Upto 3 app integrations</li>
+                    <li>Additional user segments: Repeat, Recovered</li>
+                    <li>
+                      Developer APIs access to: Template/Message send API,
+                      Message Status Webhooks
+                    </li>
+                    <li>Rate Limit - 300 API calls/min</li>
+                    <li>Automated Workflow</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="footer-text pt-2">
-              <p class="text-white" style="font-size: 17px">
-                Interakt is a Jio Haptik Product <br />Logo Building
-                Intelligent Virtual Assistants for Businesses
+            <div class="col-lg-3 col-md-6 col-sm-12 px-0">
+              <div class="card text-center p-3 rounded-5 pricing-plan">
+                <h2 class="fw-bold">Advanced</h2>
+                <h3 class="fw-bold"><i>₹</i><span>3499</span></h3>
+                <div class="plush-text">
+                  <h4>
+                    + Taxes*
+                    <span>Per Month</span>
+                  </h4>
+                </div>
+                <button class="btn rounded-5" style="background: #f09e04">
+                  Start 14 Day Free Trial
+                </button>
+                <div class="price-content-box">
+                  <h5 class="text-center pt-3">
+                    <span
+                      >1000 free Service conversations/month <br />
+                      <a
+                        href="https://developers.facebook.com/docs/whatsapp/updates-to-pricing"
+                        style="font-size: 12px; color: blue"
+                        target="_blank"
+                        rel="noopener"
+                        >(see new changes applicable from June 1, 2023)</a
+                      >
+                      <br />
+                      <br />
+                      apart from free Service <br />
+                      conversations,
+                    </span>
+                  </h5>
+                  <h4 class="text-start">
+                    Rs.0.80 per
+                    <span
+                      >Marketing <br />
+                      Conversation</span
+                    >
+                  </h4>
+                  <h4 class="text-start">
+                    Rs.0.33 per <span>all other Conversation</span>
+                  </h4>
+                  <p class="emtag">
+                    (Above rates for Indian destination numbers only)
+                  </p>
+                </div>
+                <h4 class="mb-3" style="font-size: 18px; font-weight: 600">
+                  Everything in <span class="text-success">Growth</span>, plush
+                </h4>
+                <div class="price-fuature-list">
+                  <ul class="list-unstyled">
+                    <li>🔥 Click to WhatsApp Ads Analytics Dashboard</li>
+                    <li>Unlimited external apps integration allowed</li>
+                    <li>Additional User Segments - Loyal, High spenders</li>
+                    <li>
+                      Developer APIs access to: Sessions message, Incoming
+                      messages
+                    </li>
+                    <li>Rate Limit - 600 API calls/min</li>
+                    <li>Agent Statistics</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 px-0">
+              <div class="card text-center p-3 rounded-5 pricing-plan">
+                <h2 class="fw-bold">Enterprise</h2>
+                <h4 class="pt-4 pb-4">
+                  Annual Platform <br />
+                  Fees
+                </h4>
+                <button
+                  class="btn rounded-5 mb-4 text-white"
+                  style="background: #34bc47"
+                >
+                  Start 14 Day Free Trial
+                </button>
+                <div class="price-content-box">
+                  <h5 class="text-center">
+                    <span>Unlimited conversations per year</span>
+                  </h5>
+                  <p class="emtag">
+                    (Above rates for Indian destination numbers only)
+                  </p>
+                </div>
+                <h4 class="pb-4" style="font-size: 18px; font-weight: 600">
+                  Everything in <span class="text-warning">Advanced</span>, plus
+                </h4>
+                <div class="price-fuature-list">
+                  <ul class="list-unstyled">
+                    <li>No Markup Charges</li>
+                    <li>Faster Message Delivery Speed</li>
+                    <li>Unlimited External Apps Integrations Allowed</li>
+                    <li>Customer Success Manage</li>
+                    <li>AI Chatbot Upgrade Available</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-text">
+              <p class="pt-4">
+                *Total monthly billing = Subscription Charges based on your plan
+                + Conversational charges above free limit
+              </p>
+              <span class="text-decoration-underline">
+                <a href="#">
+                  <span class="text-primary fw-bold"
+                    >For more information on how the pricing structure works,
+                    click here</span
+                  >
+                </a>
+              </span>
+              <p class="pt-3 text-decoration-underline">
+                <a href="#">
+                  <span class="fw-bold"
+                    >For country-wise conversational charges, click here</span
+                  >
+                </a>
               </p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 text-white sm-text-cen">
-            <div class="title d-inline-block">
-              <h4 class="mb-3">Interakt</h4>
-              <ul class="list-unstyled">
-                <li><a href="#">Get a Live Demo</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Partner with Us</a></li>
-                <li><a href="#">Privacy Policyo</a></li>
-                <li><a href="#">Terms & condition</a></li>
-              </ul>
+        </div>
+      </section>
+
+      <section style="background-color: #064e3b" class="mt-4">
+        <div class="container">
+          <div class="row">
+            <div main class="logo">
+              <h2 class="logo1">15+ WhatsApp Business Integrations</h2>
+              <h3 class="logo2">
+                Enjoy seamless integrations with your favorite e-stores, CRMs,
+                and more.
+              </h3>
+
+              <div class="image-elemant-2">
+                <img src="images/Frame 1.png" alt="Image 1" />
+                <img src="images/Frame 2.png" alt="Image 2" />
+                <img src="images/Frame 3.png" alt="Image 3" />
+                <img src="images/Frame 4.png" alt="Image 4" />
+                <img src="images/Frame 5.png" alt="Image 5" />
+                <img src="images/Frame 6.png" alt="Image 6" />
+                <img src="images/Frame 7.png" alt="Image 7" />
+                <img src="images/Frame 8.png" alt="Image 8" />
+                <img src="images/Frame 9.png" alt="Image 9" />
+                <img src="images/Frame 10.png" alt="Image 10" />
+                <img src="images/Frame 11.png" alt="Image 11" />
+                <img src="images/Frame 12.png" alt="Image 12" />
+                <img src="images/Frame 13.png" alt="Image 13" />
+              </div>
+              <div class="button-png">
+                <a href="https://www.interakt.shop/" target="blank"
+                  ><button class="png">
+                    WhatsApp Business API integrations
+                  </button></a
+                >
+              </div>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-6 text-white">
-            <div class="title d-inline-block">
-              <h4 class="mb-3">Quick Help Links</h4>
-              <ul class="list-unstyled">
-                <li><a href="#">Get a Live Demo</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Partner with Us</a></li>
-                <li><a href="#">Privacy Policyo</a></li>
-                <li><a href="#">Terms & condition</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-white">
-            <div class="title d-inline-block">
-              <h4 class="mb-3">Why Interakt</h4>
-              <ul class="list-unstyled">
-                <p>Interakt vs. Bitespeed</p>
-                <p>interakt vs. Bitespeed</p>
-                <p>Interakt vs. Delightchat</p>
-                <p>Interakt vs. Limechat</p>
-                <p>Interakt vs.</p>
-                <p>Businessonbot</p>
-              </ul>
-              <div class="social-icon">
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#"><img src="images/Youtube icon.webp" width="30px" /></a>
-                  </li>
-                  <li>
-                    <a href="#"><img src="images/Twitter icon.webp" width="30px" /></a>
-                  </li>
-                  <li>
-                    <a href="#"><img src="images/facebook icon.webp" width="30px" /></a>
-                  </li>
-                  <li>
-                    <a href="#"><img src="images/Instagam icon.webp" width="30px" /></a>
-                  </li>
-                </ul>
+
+            <h1 class="text-center text-white">Frequently Asked Questions</h1>
+
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse1"
+                    aria-expanded="true"
+                    aria-controls="collapse1"
+                  >
+                    When can I start using Interakt?
+                  </button>
+                </h2>
+                <div
+                  id="collapse1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading1"
+                  data-bs-parent=".accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      As an official WhatsApp Business service provider,
+                      Interakt helps you grow your online sales and transform
+                      customer experience at scale. If you’re looking to boost
+                      your revenue by leveraging WhatsApp as a sales channel,
+                      you can start using Interakt anytime. We also offer a
+                      14-day free trial program, you can start using Interakt
+                      within minutes of signing up with us. You can also reach
+                      out to our support team and we get things done for you at
+                      NO extra costs.
+                      <br />
+                      <br />
+                      Watch this video to learn how to get started with your
+                      14-day free trial.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse2"
+                    aria-expanded="false"
+                    aria-controls="collapse2"
+                  >
+                    How does Interakt's 14-day free trial work?
+                  </button>
+                </h2>
+                <div
+                  id="collapse2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading2"
+                  data-bs-parent=".accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      In our 14-day free trial program, you get access to the
+                      entire stack of power-packed features on Interakt for
+                      FREE. You get to use all the top-notch features and even
+                      if your Facebook business verification is pending, you
+                      still get to explore your inbox features with limited
+                      messaging options.
+                      <br />
+                      <br />
+                      Before you complete the Facebook business verification
+                      process, WhatsApp will approve your number to be used for
+                      sending messages in a restricted manner. Facebook permits
+                      businesses to get started right away with limited
+                      messaging options, so that businesses can explore how
+                      WhatsApp Business APIs can power-up communication and
+                      customer engagement. Facebook also uses this time to
+                      ensure that they’re accepting authentic businesses to keep
+                      the WhatsApp community spam-free.
+                      <br />
+                      <br />
+                      Make the best use of Interakt’s free trial period to
+                      explore all the features that we've built for your
+                      business.
+                      <br />
+                      <br />
+                      During your free trial period, we aid you with the process
+                      for business verification which usually takes between 3
+                      business days to 4 weeks. Once you get verified, your
+                      unlimited messaging access is activated automatically on
+                      Interakt.
+                      <br />
+                      Watch this video to learn more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse3"
+                    aria-expanded="false"
+                    aria-controls="collapse3"
+                  >
+                    What are the messaging restrictions during the 14-day free
+                    trial period?
+                  </button>
+                </h2>
+                <div
+                  id="collapse3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading3"
+                  data-bs-parent=".accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      During the 14-day free trial period, while you will have
+                      FREE access to all the amazing features on Interakt, there
+                      may be certain restrictions on messaging if your Facebook
+                      Business Verification is pending. These restrictions can
+                      be- - You can receive an unlimited number of messages from
+                      your users but you can only chat with 10 unique users per
+                      day during this period. - You can send notifications to 2
+                      unique users in a day. Notifications can be sent using
+                      WhatsApp templates that are pre-approved by Facebook.
+                      Please note: You need to complete your Facebook business
+                      verification before your trial access expires in 14 days.
+                      Your trial access allows you to send messages to a limited
+                      set of phone numbers before your business is verified.
+                      Once your business verification is complete, you will have
+                      access to more functionality on your account.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse4"
+                    aria-expanded="false"
+                    aria-controls="collapse4"
+                  >
+                    How does your WhatsApp Business account work before your
+                    Facebook Business Page is verified?
+                  </button>
+                </h2>
+                <div
+                  id="collapse4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading4"
+                  data-bs-parent=".accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      When you create a WhatsApp business account, you'll need
+                      to verify your Facebook business page. This may require
+                      documents such as a certificate of incorporation or a
+                      business license.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse5"
+                    aria-expanded="false"
+                    aria-controls="collapse2"
+                  >
+                    How does Interakt's 14-day free trial work?
+                  </button>
+                </h2>
+                <div
+                  id="collapse5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading5"
+                  data-bs-parent=".accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      In our 14-day free trial program, you get access to the
+                      entire stack of power-packed features on Interakt for
+                      FREE. You get to use all the top-notch features and even
+                      if your Facebook business verification is pending, you
+                      still get to explore your inbox features with limited
+                      messaging options.
+                      <br />
+                      <br />
+                      Before you complete the Facebook business verification
+                      process, WhatsApp will approve your number to be used for
+                      sending messages in a restricted manner. Facebook permits
+                      businesses to get started right away with limited
+                      messaging options, so that businesses can explore how
+                      WhatsApp Business APIs can power-up communication and
+                      customer engagement. Facebook also uses this time to
+                      ensure that they're accepting authentic businesses to keep
+                      the WhatsApp community spam-free.
+                      <br />
+                      <br />
+                      Make the best use of Interact's free trial period to
+                      explore all the features that we've built for your
+                      business.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading6">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse6"
+                    aria-expanded="false"
+                    aria-controls="collapse6"
+                  >
+                    How does Interakt's 14-day free trial work?
+                  </button>
+                </h2>
+                <div
+                  id="collapse6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading6"
+                  data-bs-parent=".accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      In our 14-day free trial program, you get access to the
+                      entire stack of power-packed features on Interakt for
+                      FREE. You get to use all the top-notch features and even
+                      if your Facebook business verification is pending, you
+                      still get to explore your inbox features with limited
+                      messaging options.
+                      <br />
+                      <br />
+                      Before you complete the Facebook business verification
+                      process, WhatsApp will approve your number to be used for
+                      sending messages in a restricted manner. Facebook permits
+                      businesses to get started right away with limited
+                      messaging options, so that businesses can explore how
+                      WhatsApp Business APIs can power-up communication and
+                      customer engagement. Facebook also uses this time to
+                      ensure that they’re accepting authentic businesses to keep
+                      the WhatsApp community spam-free.
+                      <br />
+                      <br />
+                      Make the best use of Interakt’s free trial period to
+                      explore all the features that we've built for your
+                      business.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <img src="images/footer play img.webp" width="40px" class="ps-3" />
-              <img src="images/footer apple logo.webp" width="40px" class="ps-3" />
-              <img src="images/footer sotify logo.webp" width="40px" class="ps-3" />
-            </div>
-            <div class="col-lg-12 text-center">
-              <h4 class="pt-3 text-white">
-                India | Singapore | Indonesia | USA | Philippines | Africa
-              </h4>
-            </div>
-            <div class="col-lg-12 text-center text-white pt-3">
-              <span>Copyright © Jio Haptik Technologies Limited 2022 | All
-                rights</span>
-              reserved
+      </section>
+
+      <!-- live demo section -->
+      <section class="pt-5">
+        <div class="container text-center">
+          <div main class="element-html">
+            <div class="box">
+              <h2 class="box-sizing">Get Started with Interakt Today</h2>
+
+              <ul class="w3box pb-4 mb-0">
+                <li class="abc">Drive Sales & Customer Experience</li>
+                <li class="abc">No Set-up Costs</li>
+                <li class="abc">No Surcharge on Notifications</li>
+              </ul>
+
+              <button class="btn main-btn fw-600 ps-5 fs-5 mt-3 mb-3 pe-5">
+                Try Interakt For Free
+              </button>
+
+              <h2 class="pt-4 pb-3 fs-3 fw-bold">Get More Question?</h2>
+
+              <button class="btn btn-success mt-4 mb-3">Get A Live Demo</button>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
+      </section>
 
-  <!-- bootstrap cdn js -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-</body>
+      <!-- footer section -->
 
+      <section class="footer mt-5" style="background: #014d3e">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-lg-5 col-md-6 text-white">
+              <img
+                src="images/logo-removebg-preview.png"
+                alt="logo"
+                width="250"
+              />
+              <div class="jioproduct">
+                <img src="images/footer img 2.png" width="290" class="pt-3" />
+              </div>
+              <div class="jioproduct">
+                <img src="images/footer img 3.png" width="290" class="pt-3" />
+              </div>
+              <div class="footer-text pt-2">
+                <p class="text-white" style="font-size: 17px">
+                  Interakt is a Jio Haptik Product <br />Logo Building
+                  Intelligent Virtual Assistants for Businesses
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 text-white sm-text-cen">
+              <div class="title d-inline-block">
+                <h4 class="mb-3">Interakt</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Get a Live Demo</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Partner with Us</a></li>
+                  <li><a href="#">Privacy Policyo</a></li>
+                  <li><a href="#">Terms & condition</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 text-white">
+              <div class="title d-inline-block">
+                <h4 class="mb-3">Quick Help Links</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Get a Live Demo</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Partner with Us</a></li>
+                  <li><a href="#">Privacy Policyo</a></li>
+                  <li><a href="#">Terms & condition</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-white">
+              <div class="title d-inline-block">
+                <h4 class="mb-3">Why Interakt</h4>
+                <ul class="list-unstyled">
+                  <p>Interakt vs. Bitespeed</p>
+                  <p>interakt vs. Bitespeed</p>
+                  <p>Interakt vs. Delightchat</p>
+                  <p>Interakt vs. Limechat</p>
+                  <p>Interakt vs.</p>
+                  <p>Businessonbot</p>
+                </ul>
+                <div class="social-icon">
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#"
+                        ><img src="images/Youtube icon.webp" width="30px"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="images/Twitter icon.webp" width="30px"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="images/facebook icon.webp" width="30px"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="images/Instagam icon.webp" width="30px"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <img
+                  src="images/footer play img.webp"
+                  width="40px"
+                  class="ps-3"
+                />
+                <img
+                  src="images/footer apple logo.webp"
+                  width="40px"
+                  class="ps-3"
+                />
+                <img
+                  src="images/footer sotify logo.webp"
+                  width="40px"
+                  class="ps-3"
+                />
+              </div>
+              <div class="col-lg-12 text-center">
+                <h4 class="pt-3 text-white">
+                  India | Singapore | Indonesia | USA | Philippines | Africa
+                </h4>
+              </div>
+              <div class="col-lg-12 text-center text-white pt-3">
+                <span
+                  >Copyright © Jio Haptik Technologies Limited 2022 | All
+                  rights</span
+                >
+                reserved
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- bootstrap cdn js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

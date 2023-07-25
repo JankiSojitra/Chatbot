@@ -9,8 +9,8 @@
 }
 button.btn.main-btn {
   background-color: #fab534;
-  padding: 0px 2px 0px !important;
-  margin-right: -25px !important;
+  padding: 0 !important;
+  margin-left: 10px;
 }
 
 .main {
@@ -28,7 +28,7 @@ a.nav-link.scrollto {
 }
 
 .navbar {
-  padding: 0;
+  padding: 6px;
 }
 
 .navbar ul {
@@ -43,6 +43,13 @@ a.nav-link.scrollto {
   position: relative;
 }
 
+#img:hover {
+  background-color: #fff;
+}
+#button:hover {
+  background: #fab534;
+  color: #000;
+}
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -54,11 +61,13 @@ a.nav-link.scrollto {
   white-space: nowrap;
   transition: 0.3s;
   text-decoration: none;
-  padding: 12px !important;
+  padding: 8px 17px !important;
 }
 
 .navbar a:hover {
-  color: #05a68b;
+  background: #05a68b;
+  border-radius: 25px;
+  color: white;
 }
 
 .navbar a i,
@@ -120,11 +129,11 @@ a.nav-link.scrollto {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -136,7 +145,7 @@ a.nav-link.scrollto {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -148,7 +157,7 @@ a.nav-link.scrollto {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -220,7 +229,7 @@ a.nav-link.scrollto {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #47b2e4;
 }
 
@@ -256,11 +265,11 @@ a.nav-link.scrollto {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #000;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
   visibility: visible !important;
 }
@@ -275,16 +284,8 @@ a.nav-link.scrollto {
   padding-left: 1px;
 }
 
-
-
-
-
 /* acquire styling */
 
-button.btn.main-btn.start-btn.mt-3 {
-  padding: 8px 12px 9px 11px!important;
-  margin-right: 0px !important;
-}
 button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
   padding: 9px !important;
 }
@@ -387,7 +388,6 @@ button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
   display: inline;
 }
 
-
 .country ul li {
   font-size: 24px;
   line-height: 23px;
@@ -396,36 +396,6 @@ button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
   padding: 0px 9px;
   border-right: 3px solid #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* janki start css html.index page */
 
@@ -472,11 +442,10 @@ button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
   justify-content: center;
   margin-top: -22px;
   padding-left: 0px;
-
 }
 
 .navigation-section {
-  background-color: #004C3D;
+  background-color: #004c3d;
   color: white;
   width: 100%;
 }
@@ -509,7 +478,7 @@ button.learn {
   padding: 12px 12px;
   width: 170px;
   border: 3px solid #fab534;
-  background-color: #004C3D;
+  background-color: #004c3d;
   color: white;
   border-radius: 12px;
 }
@@ -575,7 +544,6 @@ li.active {
   padding-bottom: 0px;
   padding-top: 0px;
 }
-
 
 .icon-paragraph {
   margin-left: 20px;
@@ -757,9 +725,8 @@ h2.logo1 {
 h3.logo2 {
   text-align: center;
   font-size: 23px;
-  color: #CBF2E4;
+  color: #cbf2e4;
   font-family: sans-serif;
-
 }
 
 .button-png {
@@ -868,7 +835,7 @@ button.button0tag {
   font-size: 17px;
   color: white;
   font-weight: 600;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 /*janki integration page css code*/
@@ -916,7 +883,7 @@ section.image-integration {
   flex-wrap: wrap;
   justify-content: start;
   padding-left: 100px;
-  padding-right: 100px
+  padding-right: 100px;
 }
 
 .image-wraps img {
@@ -945,7 +912,6 @@ h3.\#wrap-1 {
 h4.\#wrap-color {
   font-size: 16px;
   color: gray;
-
 }
 
 h2.\#heading {
@@ -1157,7 +1123,7 @@ button.button0tag {
   font-size: 17px;
   color: white;
   font-weight: 600;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .accordion-item {
@@ -1218,16 +1184,13 @@ button.button0tag {
   border-right: 3px solid #fff;
 }
 
-
 /* anand pricing css code*/
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 /* Home styling */
 .box {
@@ -1501,11 +1464,11 @@ label:after {
   transition: 0.3s;
 }
 
-input:checked+label {
+input:checked + label {
   background-color: #fab534;
 }
 
-input:checked+label:after {
+input:checked + label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
@@ -1607,7 +1570,6 @@ input:checked+label:after {
 
 /*anand about us page css code*/
 
-
 .about-style {
   height: auto;
 }
@@ -1658,12 +1620,6 @@ input:checked+label:after {
   color: #fff;
   cursor: pointer;
 }
-
-
-
-
-
-
 
 /* Slider */
 .slick-slider {
@@ -1726,7 +1682,7 @@ input:checked+label:after {
 .slick-track:after {
   display: table;
 
-  content: '';
+  content: "";
 }
 
 .slick-track:after {
@@ -1745,7 +1701,7 @@ input:checked+label:after {
   min-height: 1px;
 }
 
-[dir='rtl'] .slick-slide {
+[dir="rtl"] .slick-slide {
   float: right;
 }
 
@@ -1780,5 +1736,3 @@ input:checked+label:after {
 .slick-arrow.slick-hidden {
   display: none;
 }
-
-
