@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <!-- <link rel="stylesheet" href="../anand/css/Style.css" /> -->
-
-
-
   <title>intergration</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,7 +14,7 @@
 <style>
   section.float-section {
     display: flex;
-    margin-top: 8%;
+    margin-top: 3%;
   }
 
   h2.\#tag1 {
@@ -262,15 +258,15 @@
   }
 
   .box {
-    width: 58%;
-    display: block;
+    width: 55%;
     text-align: center;
-    margin-left: 264px;
     background-color: white;
-    border: 1px solid grey;
+    border: 0.5px solid grey;
+    border-left: 0;
+    border-bottom: 0;
     border-radius: 20px;
-    box-shadow: 3px 0 13px -3px grey;
-    margin-left: 20%;
+    box-shadow: 3px 0 13px -1px grey;
+    margin-left: 23%;
   }
 
   button.botton-element {
@@ -381,297 +377,581 @@
     padding: 0px 9px;
     border-right: 3px solid #fff;
   }
+  #header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 10px 0;
+}
+.main-btn:hover {
+  background-color: #fab534 !important;
+  color: #000 !important;
+}
+button.btn.main-btn {
+  background-color: #fab534;
+  padding: 0 !important;
+}
 
-  .navbar {
-    padding: 0;
-  }
+.navbar {
+  padding: 6px;
+}
 
-  .navbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-  }
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
 
-  .navbar li {
-    position: relative;
-  }
+.navbar li {
+  position: relative;
+}
 
-  .navbar a,
-  .navbar a:focus {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0 10px 30px;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000;
-    white-space: nowrap;
-    transition: 0.3s;
-    text-decoration: none;
-  }
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 8px 17px !important;
+}
 
-  .navbar a:hover {
-    color: #05a68b;
-  }
+.navbar a:hover {
+  background: #05a68b;
+  color: #fff ;
+  border-radius: 25px;
+}
+#img:hover {
+  background-color: #fff ;
+}
 
-  .navbar a i,
-  .navbar a:focus i {
-    font-size: 12px;
-    line-height: 0;
-    margin-left: 5px;
-  }
+#button:hover {
+  background: #fab534;
+  color: #000;
+}
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
 
-  .navbar .getstarted,
-  .navbar .getstarted:focus {
-    padding: 8px 20px;
-    margin-left: 30px;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 14px;
-    border: 2px solid #47b2e4;
-    font-weight: 600;
-  }
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
 
-  .navbar .getstarted:hover,
-  .navbar .getstarted:focus:hover {
-    color: #fff;
-    background: #31a9e1;
-  }
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #31a9e1;
+}
 
-  .navbar .dropdown ul {
-    display: block;
-    position: absolute;
-    left: 14px;
-    top: calc(100% + 30px);
-    margin: 0;
-    padding: 10px 0;
-    z-index: 99;
-    opacity: 0;
-    visibility: hidden;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
-    border-radius: 4px;
-  }
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
 
-  .navbar .dropdown ul li {
-    min-width: 200px;
-  }
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
 
-  .navbar .dropdown ul a {
-    padding: 10px 20px;
-    font-size: 14px;
-    text-transform: none;
-    font-weight: 500;
-    color: #0c3c53;
-    text-decoration: none;
-  }
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  font-weight: 500;
+  color: #0c3c53;
+  text-decoration: none;
+}
 
-  .navbar .dropdown ul a i {
-    font-size: 12px;
-  }
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
 
-  .navbar .dropdown ul a:hover,
-  .navbar .dropdown ul .active:hover,
-  .navbar .dropdown ul li:hover>a {
-    color: #47b2e4;
-  }
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #47b2e4;
+}
 
-  .navbar .dropdown:hover>ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-  }
+.navbar .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
 
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    top: 0;
-    left: calc(100% - 30px);
-    visibility: hidden;
+    left: -90%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
-    opacity: 1;
-    top: 0;
-    left: 100%;
-    visibility: visible;
+    left: -100%;
   }
+}
 
-  @media (max-width: 1366px) {
-    .navbar .dropdown .dropdown ul {
-      left: -90%;
-    }
-
-    .navbar .dropdown .dropdown:hover>ul {
-      left: -100%;
-    }
-  }
-
-  /**
+/**
 * Mobile Navigation 
 */
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
   .mobile-nav-toggle {
-    color: #fff;
-    font-size: 28px;
-    cursor: pointer;
-    display: none;
-    line-height: 0;
-    transition: 0.5s;
-  }
-
-  .mobile-nav-toggle.bi-x {
-    color: #fff;
-  }
-
-  @media (max-width: 991px) {
-    .mobile-nav-toggle {
-      display: block;
-    }
-
-    .navbar ul {
-      display: none;
-    }
-  }
-
-  .navbar-mobile {
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: rgba(40, 58, 90, 0.9);
-    transition: 0.3s;
-    z-index: 999;
-  }
-
-  .navbar-mobile .mobile-nav-toggle {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-  }
-
-  .navbar-mobile ul {
     display: block;
-    position: absolute;
-    top: 55px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px;
-    padding: 10px 0;
-    border-radius: 10px;
-    background-color: #fff;
-    overflow-y: auto;
-    transition: 0.3s;
   }
 
-  .navbar-mobile a,
-  .navbar-mobile a:focus {
-    padding: 10px 20px;
-    font-size: 15px;
-    color: #37517e;
+  .navbar ul {
+    display: none;
   }
+}
 
-  .navbar-mobile a:hover,
-  .navbar-mobile .active,
-  .navbar-mobile li:hover>a {
-    color: #47b2e4;
-  }
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(40, 58, 90, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
 
-  .navbar-mobile .getstarted,
-  .navbar-mobile .getstarted:focus {
-    margin: 15px;
-    color: #000;
-  }
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
 
-  .main-btn {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4em;
-    color: #000;
-    background-color: #fab534;
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #37517e;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover>a {
+  color: #47b2e4;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+  color: #000;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
+  color: #000;
+}
+
+.navbar-mobile .dropdown>.dropdown-active {
+  display: block;
+  visibility: visible !important;
+}
+
+.main-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #000;
+  background-color: #fab534;
+  border-radius: 8px;
+  padding-left: 0px !important;
+    margin-left: 20px;
+    padding-right: 26px;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+}
+
+
+
+
+
+
+  /** mobile screen responsiv*/
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+
+section.float-section {
+  display: block;
+  margin-top: 8%;
+}
+button.signup.free {
+    background-color: #f8b434;
+    margin-left: 90px;
+    margin-top: 8px;
+    padding: 10px 34px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.float-1 {
+    width: 100% !important;
+    margin-top: 20%;
+}
+.float-1 img {
+    width: 100% !important;
+    height: 200%;
+    margin-top: 16px;
+}
+h2.\#tag1 {
+font-size: 35px;
+font-weight: 600;
+font-family: sans-serif;
+padding-left: 35px;
+padding-top: 30px;
+text-align: left;
+}
+p.\#tag2 {
+font-size: 19px;
+padding-left: 37px;
+font-weight: 600;
+font-family: system-ui;
+text-align: left;
+}
+.float-1 img {
+width: 100%;
+}
+ ul.\#menu-ul {
+list-style-type: none;
+display: block;
+padding-top: 38px;
+padding-left: 0px !important;
+}
+.shsadow {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-right: 15px !important;
+    padding-left: 15px;
+}
+.image-wraps {
+padding: 9px;
+width: 100%;
+padding-inline: 10px;
+background-color: white;
+margin: 6px;
+border: 2px solid transparent;
+border-radius: 12px;
+margin-left: 0px !important;
+}
+.accordion {
+    width: 100%;
+    display: block;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+}
+.fa-icons {
+    margin-left: 38%;
+}
+.accordion {
+    width: 95%;
+    display: block;
+    margin-left: 3%;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+}
+button.request {
+padding: 7px 20px;
+background-color: #f8b434;
+border: 2px solid transparent;
+border-radius: 8px;
+font-weight: 600;
+margin-bottom: 35px;
+margin-left: 75px;
+}
+h2.head-icon {
+text-align: center;
+margin-top: 40px;
+font-size: 21px;
+font-weight: 700;
+font-family: sans-serif;
+}
+.box {
+width: 100%;
+text-align: center;
+background-color: white;
+border: 0.5px solid grey;
+border-left: 0;
+border-bottom: 0;
+border-radius: 20px;
+box-shadow: 3px 0 13px -1px grey;
+margin-left: 0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  .box {
+    width: 87%;
+    text-align: center;
+    background-color: white;
+    border: 0.5px solid grey;
+    border-left: 0;
+    border-bottom: 0;
+    border-radius: 20px;
+    box-shadow: 3px 0 13px -1px grey;
+    margin-left: 18%;
+}
+.accordion {
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+}
+section.slider-section1 {
+    background-color: burlywood;
+    width: 128%;
+}
+.fa-icons {
+    margin-left: 35%;
+}
+.flex-6-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    padding-left: 0px;
+    margin-right: -20%;
+}
+.h2.head-icon {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 26%;
+}
+.shsadow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 25px !important;
+    padding-right: 0px !important;
+}
+section.image-integration {
+    background-color: #004c3d;
+    width: 128%;
+}
+ul.\#menu-ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 38px;
+    padding-left: 0px !important;
+}
+.image-wraps {
+    padding: 9px;
+    width: 23%;
+    padding-inline: 10px;
+    background-color: white;
+    margin: 6px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+button.request {
+    padding: 7px 20px;
+    background-color: #f8b434;
+    border: 2px solid transparent;
     border-radius: 8px;
-    padding: 15px 25px 12px 25px;
-  }
+    font-weight: 600;
+    margin-bottom: 35px;
+    margin-left: 40%;
+}
+.wrap-float {
+    padding-bottom: 35px; 
+}
+}
 
-  .main-btn:hover {
-    background-color: #fab534;
-    color: #000;
-  }
-
-  .navbar-mobile .dropdown ul {
-    position: static;
-    display: none;
-    margin: 10px 20px;
-    padding: 10px 0;
-    z-index: 99;
-    opacity: 1;
-    visibility: visible;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  }
-
-  .navbar-mobile .dropdown ul li {
-    min-width: 200px;
-  }
-
-  .navbar-mobile .dropdown ul a {
-    padding: 10px 20px;
-  }
-
-  .navbar-mobile .dropdown ul a i {
-    font-size: 12px;
-  }
-
-  .navbar-mobile .dropdown ul a:hover,
-  .navbar-mobile .dropdown ul .active:hover,
-  .navbar-mobile .dropdown ul li:hover>a {
-    color: #000;
-  }
-
-  .navbar-mobile .dropdown>.dropdown-active {
+@media only screen and (min-width: 1920px) and (max-width: 1989px)  {
+  ul.\#menu-ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 38px;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+button.request {
+    text-align: center;
+    padding: 7px 20px;
+    background-color: #f8b434;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
     display: block;
-    visibility: visible !important;
-  }
+    margin: auto;
+}
+.flex-6-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    margin-left: 0px !important;
+}
+.wrap-float {
+    padding-bottom: 35px;
+    width: 25%;
+    margin-left: 5px;
+}
+.box {
+    width: 55%;
+    text-align: center;
+    background-color: white;
+    border: 0.5px solid grey;
+    border-left: 0;
+    border-bottom: 0;
+    border-radius: 20px;
+    box-shadow: 3px 0 13px -1px grey;
+    display: block;
+    margin: auto;
+}
+}
+
 </style>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light fixed-top pt-2 pb-2">
-    <div class="container">
-      <img src="images/logo.jpg" width="200px" />
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Solution</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="integration-1.html">Integration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.html page.html">Login</a>
-          </li>
-        </ul>
-        <button class="btn main-btn" type="submit">
-          Start Free Trial
-        </button>
-      </div>
+  <div class="container-fluid p-1">
+    <div class="container main">
+         <nav class="navbar navbar-expand-lg bg-light fixed-top">
+          <div class="container">
+            <a href="index.html" class="p-0" id="img"><img src="images/logo.jpg" width="200px" /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Solution</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="integration-1.html">Integration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html page.html">Login</a>
+                </li>
+              </ul>
+              <button class="btn main-btn p-3" type="submit">
+              <a id="button" href="trialpage1.html"> start Free Trial</a> 
+              </button>
+            </div>
+          </div>
+        </nav>
     </div>
-  </nav>
+    <div>
 
 
   <section class="float-section">
@@ -724,8 +1004,7 @@
           commerce store on WhatsApp with<br>
           InstaMojo – Integrate with Interakt<br>
           & grow your sales multi folds.<br>
-
-      </div>
+        </div>
 
       <div class="image-wraps">
         <img src="images/file-3.png">
@@ -881,28 +1160,28 @@
 
     <div class="flex-6-wrap">
       <div class="wrap-float">
-        <i class="fa fa-file-text-o" style="font-size:36px;"></i>
+        <i class="fa fa-file-text-o fa-icons" style="font-size:36px;"></i>
         <h4 class="second-section">Share Product Catalogs at Scale</h4>
         <p class="third-section">Send product catalogs at scale to customers on<br>
           WhatsApp as part of campaigns & auto-replies</p>
       </div>
 
       <div class="wrap-float">
-        <i class="fa fa-bell" style="font-size:36px"></i>
+        <i class="fa fa-bell fa-icons" style="font-size:36px"></i>
         <h4 class="second-section">Automate Business Communication</h4>
         <p class="third-section">Set automated replies for FAQs & alerts for COD <br>
           confirmations, abandoned carts, & offers.</p>
       </div>
 
       <div class="wrap-float">
-        <i class="fa fa-bullhorn " style="font-size:36px"></i>
+        <i class="fa fa-bullhorn fa-icons " style="font-size:36px"></i>
         <h4 class="second-section">Send Bulk Campaigns & Broadcast</h4>
         <p class="third-section">Set up one-time or recurring campaigns to engage<br>
           your customers and sell more..</p>
       </div>
 
       <div class="wrap-float">
-        <i class="fa fa-envelope" style="font-size:36px"></i>
+        <i class="fa fa-envelope fa-icons" style="font-size:36px"></i>
         <h4 class="second-section">Collaborate using Team Inbox & <br>Chat Widgets</h4>
         <p class="third-section">Add WhatsApp widgets to your e-store &<br>
           collaborate with unlimited team members to offer<br>
@@ -910,7 +1189,7 @@
       </div>
 
       <div class="wrap-float">
-        <i class="fa fa-commenting-o" style="font-size:36px"></i>
+        <i class="fa fa-commenting-o fa-icons" style="font-size:36px"></i>
         <h4 class="second-section">Monitor Chat & Campaign Analytics</h4>
         <p class="third-section">Monitor campaign performance, response &<br>
           resolution times of your agents to improve your<br>
@@ -919,7 +1198,7 @@
 
 
       <div class="wrap-float">
-        <i class="fa fa-check-square-o" style="font-size:36px;"></i>
+        <i class="fa fa-check-square-o fa-icons" style="font-size:36px;"></i>
         <h4 class="second-section">Green Tick Verification</h4>
         <p class="third-section">Interakt helps you apply for the Green tick on <br>
           WhatsApp alongside your brand name to<br>
@@ -1258,4 +1537,4 @@
     crossorigin="anonymous"></script>
 </body>
 
-</html
+</html>
