@@ -7,909 +7,19 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <!-- <link rel="stylesheet" href="../anand/css/Style.css" /> -->
-  <title>intergration</title>
+  <title>integration</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/Integration.css">
 </head>
-<style>
-  section.float-section {
-    display: flex;
-    margin-top: 3%;
-  }
-
-  h2.\#tag1 {
-    font-size: 35px;
-    font-weight: 600;
-    font-family: sans-serif;
-    padding-left: 35px;
-    padding-top: 30px;
-  }
-
-  p.\#tag2 {
-    font-size: 19px;
-    padding-left: 37px;
-    font-weight: 600;
-    font-family: system-ui;
-  }
-
-  button.signup.free {
-    margin-left: 38px;
-    margin-top: 8px;
-  }
-
-  button.signup.free {
-    background-color: #f8b434;
-    margin-left: 38px;
-    margin-top: 8px;
-    padding: 10px 34px;
-    border: 2px solid transparent;
-    border-radius: 7px;
-    font-weight: 700;
-  }
-
-  section.image-integration {
-    background-color: #004c3d;
-  }
-
-  .shsadow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding-left: 100px;
-    padding-right: 100px
-  }
-
-  .image-wraps img {
-    width: 97px;
-    height: 92px;
-  }
-
-  .image-wraps {
-    padding: 9px;
-    width: 23%;
-    padding-inline: 10px;
-    background-color: white;
-    margin: 6px;
-    border: 2px solid transparent;
-    border-radius: 12px;
-  }
-
-  h3.\#wrap-1 {
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 4px;
-  }
-
-  h4.\#wrap-color {
-    font-size: 16px;
-    color: gray;
-
-  }
-
-  h2.\#heading {
-    font-size: 40px;
-    text-align: center;
-    padding-top: 20px;
-    color: white;
-    font-weight: 400;
-  }
-
-  p.\#paragraph-wrap {
-    font-size: 13px;
-    font-weight: 500;
-    margin-bottom: 1px;
-  }
-
-  ul.\#menu-ul {
-    list-style-type: none;
-    display: flex;
-    padding-left: 80px;
-    padding-top: 38px;
-  }
-
-  li.\#sub-menu:hover {
-    background-color: white;
-    color: black;
-  }
-
-  li.\#sub-menu {
-    margin-left: 10px;
-    margin-left: 10px;
-    border: 1px solid white;
-    color: white;
-    border-radius: 25px;
-    text-align: center;
-    padding: 11px 20px;
-  }
-
-  h3.card-head {
-    text-align: center;
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 18px;
-  }
-
-  button.request {
-    text-align: center;
-    margin-left: 510px;
-    padding: 7px 20px;
-    background-color: #f8b434;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-weight: 600;
-    margin-bottom: 35px;
-  }
-
-  .flex-6-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: -39px;
-    margin-top: 55px;
-  }
-
-  h2.head-icon {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 35px;
-    font-weight: 700;
-    font-family: sans-serif;
-  }
-
-  .wrap-float {
-    margin-left: 40px;
-    padding-bottom: 35px;
-  }
-
-  h4.second-section {
-    font-size: 20px;
-    font-family: unset;
-    margin-top: 22px;
-  }
-
-  p.third-section {
-    font-size: 15px;
-    margin-top: 10px;
-    font-weight: 400;
-  }
-
-  i.fa.fa-file-text-o {
-    color: #f8b434;
-    border: 3px solid #f8b434;
-    border-radius: 30px;
-    padding: 12px;
-    padding-left: 15px;
-    padding-right: 10px;
-  }
-
-  i.fa.fa-bell {
-    color: #21a3e3;
-    border: 3px solid #21a3e3;
-    border-radius: 30px;
-    padding: 10px;
-  }
-
-  i.fa.fa-bullhorn {
-    color: #f8b434;
-    border: 3px solid #f8b434;
-    border-radius: 30px;
-    padding: 10px;
-  }
-
-  i.fa.fa-envelope {
-    color: #1eb4ff;
-    border: 3px solid #1eb4ff;
-    border-radius: 30px;
-    padding: 10px;
-  }
-
-  i.fa.fa-commenting-o {
-    color: #1d8d5f;
-    border: 3px solid #1d8d5f;
-    border-radius: 30px;
-    padding: 10px;
-    padding-left: 11px;
-  }
-
-  i.fa.fa-check-square-o {
-    color: #55c755;
-    border: 3px solid #55c755;
-    border-radius: 30px;
-    padding: 10px;
-    padding-left: 14px;
-  }
-
-  .w3box {
-    display: flex;
-    justify-content: center;
-    padding-top: 32px;
-    margin-bottom: 15px;
-  }
-
-  .button-png {
-    text-align: center;
-    padding-bottom: 65px;
-    margin-bottom: 95px;
-  }
-
-  button.png {
-    padding: 16px 46px;
-    font-size: 15px;
-    font-family: sans-serif;
-    border: 0px solid;
-    border-radius: 10px;
-    background-color: #fab354;
-  }
-
-  h2.box-sizing {
-    font-size: 33px;
-    letter-spacing: 1px;
-    margin-bottom: -17px;
-    font-family: sans-serif;
-    margin-top: 50px;
-  }
-
-  p.abc {
-    margin-right: 23px;
-    font-size: 17px;
-    font-family: math;
-  }
-
-  .box {
-    width: 55%;
-    text-align: center;
-    background-color: white;
-    border: 0.5px solid grey;
-    border-left: 0;
-    border-bottom: 0;
-    border-radius: 20px;
-    box-shadow: 3px 0 13px -1px grey;
-    margin-left: 23%;
-  }
-
-  button.botton-element {
-    width: 287px;
-    padding: 17px;
-    font-size: 17px;
-    border: 0px solid;
-    border-radius: 8px;
-    background-color: #fab534;
-    margin-bottom: 10px;
-    font-family: math;
-    font-weight: 600;
-  }
-
-  h2.element-tag {
-    margin-bottom: 40px;
-    margin-top: 26px;
-    font-size: 33px;
-    font-family: math;
-    font-weight: 600;
-  }
-
-  button.button0tag {
-    width: 250px;
-    padding: 15px;
-    border: 0px solid;
-    border-radius: 7px;
-    background-color: #479974;
-    font-size: 17px;
-    color: white;
-    font-weight: 600;
-    margin-bottom: 50px
-  }
-
-  h1.faqa {
-    text-align: center;
-    font-size: 28px;
-    padding-bottom: 40px;
-    padding-top: 33px;
-  }
-
-  .accordion-item {
-    margin-bottom: 1rem;
-  }
-
-  .accordion {
-    width: 71%;
-    display: block;
-    margin-left: 15%;
-    padding-bottom: 24px;
-    margin-bottom: 30px;
-  }
-
-  .accordion-button {
-    background-color: #f8f9fa;
-    color: #212529 !important;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-  }
-
-  .accordion-body {
-    font-size: 17px;
-    font-weight: 600;
-  }
-
-  .footer .title h4 {
-    font-size: 17px !important;
-  }
-
-  .footer .title ul li {
-    padding-bottom: 10px;
-  }
-
-  .footer .title ul li a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .footer .title ul li a:hover {
-    text-decoration: underline;
-  }
-
-  .social-icon ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  section.slider-section1 {
-    background-color: burlywood;
-  }
-
-  .footer-bottom {
-    padding-top: 30px;
-    padding-bottom: 15px;
-  }
-
-  .social-icon-bottom ul {
-    display: inline;
-  }
-
-  .country ul li {
-    font-size: 24px;
-    line-height: 23px;
-    font-weight: 700;
-    float: left;
-    padding: 0px 9px;
-    border-right: 3px solid #fff;
-  }
-  #header {
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 10px 0;
-}
-.main-btn:hover {
-  background-color: #fab534 !important;
-  color: #000 !important;
-}
-button.btn.main-btn {
-  background-color: #fab534;
-  padding: 0 !important;
-}
-
-.navbar {
-  padding: 6px;
-}
-
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.navbar li {
-  position: relative;
-}
-
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 15px;
-  font-weight: 500;
-  color: #000;
-  white-space: nowrap;
-  transition: 0.3s;
-  text-decoration: none;
-  padding: 8px 17px !important;
-}
-
-.navbar a:hover {
-  background: #05a68b;
-  color: #fff ;
-  border-radius: 25px;
-}
-#img:hover {
-  background-color: #fff ;
-}
-
-#button:hover {
-  background: #fab534;
-  color: #000;
-}
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar .getstarted,
-.navbar .getstarted:focus {
-  padding: 8px 20px;
-  margin-left: 30px;
-  border-radius: 50px;
-  color: #fff;
-  font-size: 14px;
-  border: 2px solid #47b2e4;
-  font-weight: 600;
-}
-
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #31a9e1;
-}
-
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-  border-radius: 4px;
-}
-
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  font-weight: 500;
-  color: #0c3c53;
-  text-decoration: none;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #47b2e4;
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
-
-/**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-
-.mobile-nav-toggle.bi-x {
-  color: #fff;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  border-radius: 10px;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #37517e;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #47b2e4;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-  color: #000;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #000;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-  visibility: visible !important;
-}
-
-.main-btn {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.4em;
-  color: #000;
-  background-color: #fab534;
-  border-radius: 8px;
-  padding-left: 0px !important;
-    margin-left: 20px;
-    padding-right: 26px;
-}
-@media (min-width: 992px){
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 0.5rem;
-}
-}
-
-
-
-
-
-
-  /** mobile screen responsiv*/
-
-
-@media only screen and (min-width: 200px) and (max-width: 767px)  {
-
-section.float-section {
-  display: block;
-  margin-top: 8%;
-}
-button.signup.free {
-    background-color: #f8b434;
-    margin-left: 90px;
-    margin-top: 8px;
-    padding: 10px 34px;
-    border: 2px solid transparent;
-    border-radius: 7px;
-    font-weight: 700;
-}
-.float-1 {
-    width: 100% !important;
-    margin-top: 20%;
-}
-.float-1 img {
-    width: 100% !important;
-    height: 200%;
-    margin-top: 16px;
-}
-h2.\#tag1 {
-font-size: 35px;
-font-weight: 600;
-font-family: sans-serif;
-padding-left: 35px;
-padding-top: 30px;
-text-align: left;
-}
-p.\#tag2 {
-font-size: 19px;
-padding-left: 37px;
-font-weight: 600;
-font-family: system-ui;
-text-align: left;
-}
-.float-1 img {
-width: 100%;
-}
- ul.\#menu-ul {
-list-style-type: none;
-display: block;
-padding-top: 38px;
-padding-left: 0px !important;
-}
-.shsadow {
-    display: block;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding-right: 15px !important;
-    padding-left: 15px;
-}
-.image-wraps {
-padding: 9px;
-width: 100%;
-padding-inline: 10px;
-background-color: white;
-margin: 6px;
-border: 2px solid transparent;
-border-radius: 12px;
-margin-left: 0px !important;
-}
-.accordion {
-    width: 100%;
-    display: block;
-    padding-bottom: 24px;
-    margin-bottom: 30px;
-}
-.fa-icons {
-    margin-left: 38%;
-}
-.accordion {
-    width: 95%;
-    display: block;
-    margin-left: 3%;
-    padding-bottom: 24px;
-    margin-bottom: 30px;
-}
-button.request {
-padding: 7px 20px;
-background-color: #f8b434;
-border: 2px solid transparent;
-border-radius: 8px;
-font-weight: 600;
-margin-bottom: 35px;
-margin-left: 75px;
-}
-h2.head-icon {
-text-align: center;
-margin-top: 40px;
-font-size: 21px;
-font-weight: 700;
-font-family: sans-serif;
-}
-.box {
-width: 100%;
-text-align: center;
-background-color: white;
-border: 0.5px solid grey;
-border-left: 0;
-border-bottom: 0;
-border-radius: 20px;
-box-shadow: 3px 0 13px -1px grey;
-margin-left: 0px;
-}
-}
-@media only screen and (min-width: 768px) and (max-width: 1024px)  {
-  .box {
-    width: 87%;
-    text-align: center;
-    background-color: white;
-    border: 0.5px solid grey;
-    border-left: 0;
-    border-bottom: 0;
-    border-radius: 20px;
-    box-shadow: 3px 0 13px -1px grey;
-    margin-left: 18%;
-}
-.accordion {
-    width: 90%;
-    display: block;
-    margin-left: 5%;
-    padding-bottom: 24px;
-    margin-bottom: 30px;
-}
-section.slider-section1 {
-    background-color: burlywood;
-    width: 128%;
-}
-.fa-icons {
-    margin-left: 35%;
-}
-.flex-6-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 55px;
-    padding-left: 0px;
-    margin-right: -20%;
-}
-.h2.head-icon {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 35px;
-    font-weight: 700;
-    font-family: sans-serif;
-    margin-left: 26%;
-}
-.shsadow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding-left: 25px !important;
-    padding-right: 0px !important;
-}
-section.image-integration {
-    background-color: #004c3d;
-    width: 128%;
-}
-ul.\#menu-ul {
-    list-style-type: none;
-    display: flex;
-    padding-top: 38px;
-    padding-left: 0px !important;
-}
-.image-wraps {
-    padding: 9px;
-    width: 23%;
-    padding-inline: 10px;
-    background-color: white;
-    margin: 6px;
-    border: 2px solid transparent;
-    border-radius: 12px;
-    margin-right: 8px;
-}
-button.request {
-    padding: 7px 20px;
-    background-color: #f8b434;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-weight: 600;
-    margin-bottom: 35px;
-    margin-left: 40%;
-}
-.wrap-float {
-    padding-bottom: 35px; 
-}
-}
-
-@media only screen and (min-width: 1920px) and (max-width: 1989px)  {
-  ul.\#menu-ul {
-    list-style-type: none;
-    display: flex;
-    padding-top: 38px;
-    margin: auto;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-button.request {
-    text-align: center;
-    padding: 7px 20px;
-    background-color: #f8b434;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-weight: 600;
-    display: block;
-    margin: auto;
-}
-.flex-6-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 55px;
-    margin-left: 0px !important;
-}
-.wrap-float {
-    padding-bottom: 35px;
-    width: 25%;
-    margin-left: 5px;
-}
-.box {
-    width: 55%;
-    text-align: center;
-    background-color: white;
-    border: 0.5px solid grey;
-    border-left: 0;
-    border-bottom: 0;
-    border-radius: 20px;
-    box-shadow: 3px 0 13px -1px grey;
-    display: block;
-    margin: auto;
-}
-}
-
-</style>
-
 <body>
 
   <div class="container-fluid p-1">
     <div class="container main">
          <nav class="navbar navbar-expand-lg bg-light fixed-top">
           <div class="container">
-            <a href="Index.html" class="p-0" id="img"><img src="images/logo.jpg" width="200px" /></a>
+            <a href="/Templates/Index.html" class="p-0" id="img"><img src="/images/logo.jpg" width="200px" /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -929,23 +39,23 @@ button.request {
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Integration.html">Integration</a>
+                  <a class="nav-link" href="/Templates/Integration.html">Integration</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Pricing.html">Pricing</a>
+                  <a class="nav-link" href="/Templates/Pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link">Resources</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AboutUs.html">About Us</a>
+                  <a class="nav-link" href="/Templates/AboutUs.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Login.html">Login</a>
+                  <a class="nav-link" href="/Templates/Login.html">Login</a>
                 </li>
               </ul>
               <button class="btn main-btn p-3" type="submit">
-              <a id="button" href="TrialPage.html"> start Free Trial</a> 
+              <a id="button" href="/Templates/TrialPage.html"> start Free Trial</a> 
               </button>
             </div>
           </div>
@@ -966,7 +76,7 @@ button.request {
     </div>
 
     <div class="float-1" style="width: 50%;">
-      <img src="images/html.image.webp" width="600" height="400">
+      <img src="/images/html.image.webp" width="600" height="400">
     </div>
   </section>
 
@@ -987,7 +97,7 @@ button.request {
 
     <div main class="shsadow">
       <div class="image-wraps">
-        <img src="images/file-1.png">
+        <img src="/images/file-1.png">
         <h3 class="#wrap-1">Pabbly</h3>
         <h4 class="#wrap-color">E-commerce</h4>
         <p class="#paragraph-wrap">Integrate your Pabbly Connect with<br>
@@ -997,7 +107,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-2.png">
+        <img src="/images/file-2.png">
         <h3 class="#wrap-1">Instamojo</h3>
         <h4 class="#wrap-color">E-commerce</h4>
         <p class="#paragraph-wrap">Create and build your own e-<br>
@@ -1007,7 +117,7 @@ button.request {
         </div>
 
       <div class="image-wraps">
-        <img src="images/file-3.png">
+        <img src="/images/file-3.png">
         <h3 class="#wrap-1">WooCommerce</h3>
         <h4 class="#wrap-color">E-commerce</h4>
         <p class="#paragraph-wrap">Integrate Interakt with your<br>
@@ -1016,7 +126,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-4.png">
+        <img src="/images/file-4.png">
         <h3 class="#wrap-1">Shopify</h3>
         <h4 class="#wrap-color">E-commerce</h4>
         <p class="#paragraph-wrap">Integrate your Shopify Store with <br>
@@ -1025,7 +135,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-5.png">
+        <img src="/images/file-5.png">
         <h3 class="#wrap-1">Razorpay</h3>
         <h4 class="#wrap-color">payment</h4>
         <p class="#paragraph-wrap">Connect your Razorpay account<br>
@@ -1033,7 +143,7 @@ button.request {
           directly on WhatsApp.<br></p>
       </div>
       <div class="image-wraps">
-        <img src="images/file-6.png">
+        <img src="/images/file-6.png">
         <h3 class="#wrap-1">PayU</h3>
         <h4 class="#wrap-color">Payment Gateway</h4>
         <p class="#paragraph-wrap">Connect your PayU account with<br>
@@ -1044,7 +154,7 @@ button.request {
 
 
       <div class="image-wraps">
-        <img src="images/file-7.png">
+        <img src="/images/file-7.png">
         <h3 class="#wrap-1">WebEngage</h3>
         <h4 class="#wrap-color">Customer data</h4>
         <p class="#paragraph-wrap">Notify customers at scale on<br>
@@ -1053,7 +163,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-8.png">
+        <img src="/images/file-8.png">
         <h3 class="#wrap-1">Zoho</h3>
         <h4 class="#wrap-color">CRM</h4>
         <p class="#paragraph-wrap">Centralize and manage all business<br>
@@ -1071,7 +181,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-10.png">
+        <img src="/images/file-10.png">
         <h3 class="#wrap-1">Zapier</h3>
         <h4 class="#wrap-color">Platform Aggregators</h4>
         <p class="#paragraph-wrap">Trigger automated notifications for<br>
@@ -1080,7 +190,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-11.png">
+        <img src="/images/file-11.png">
         <h3 class="#wrap-1">Google Sheets</h3>
         <h4 class="#wrap-color"> Data Storage</h4>
         <p class="#paragraph-wrap">Send Automatic WhatsApp<br>
@@ -1089,7 +199,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-12.png">
+        <img src="/images/file-12.png">
         <h3 class="#wrap-1">FB Leads App</h3>
         <h4 class="#wrap-color">Ads</h4>
         <p class="#paragraph-wrap">Send automated personalized<br>
@@ -1099,7 +209,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-13.png">
+        <img src="/images/file-13.png">
         <h3 class="#wrap-1">Kylas</h3>
         <h4 class="#wrap-color">CRM</h4>
         <p class="#paragraph-wrap">Share products and send<br>
@@ -1107,7 +217,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-14.png">
+        <img src="/images/file-14.png">
         <h3 class="#wrap-1">Sell.do</h3>
         <h4 class="#wrap-color">CRM</h4>
         <p class="#paragraph-wrap"> Automate real estate marketing on<br>
@@ -1115,14 +225,14 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-15.png">
+        <img src="/images/file-15.png">
         <h3 class="#wrap-1">Hello Leads</h3>
         <h4 class="#wrap-color">CRM</h4>
         <p class="#paragraph-wrap">Manage business communications on WhatsApp</p>
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-16.png">
+        <img src="/images/file-16.png">
         <h3 class="#wrap-1">Argoid</h3>
         <h4 class="#wrap-color">E-commerce</h4>
         <p class="#paragraph-wrap">Personalise notifications for your<br>
@@ -1130,7 +240,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-17.png">
+        <img src="/images/file-17.png">
         <h3 class="#wrap-1">Return Prime</h3>
         <h4 class="#wrap-color">E-commerce</h4>
         <p class="#paragraph-wrap"> Initiate and facilitate returns for,<br>
@@ -1138,7 +248,7 @@ button.request {
       </div>
 
       <div class="image-wraps">
-        <img src="images/file-18.png">
+        <img src="/images/file-18.png">
         <h3 class="#wrap-1">Clevertap</h3>
         <h4 class="#wrap-color"> CRM</h4>
         <p class="#paragraph-wrap">Send automated response <br>
@@ -1404,8 +514,6 @@ button.request {
         </div>
       </div>
     </div>
-    </div>
-    </div>
   </section>
 
 
@@ -1435,12 +543,12 @@ button.request {
     <div class="container">
       <div class="row pt-5">
         <div class="col-lg-5 col-md-6 text-white">
-          <img src="images/logo-removebg-preview.png" alt="logo" width="250" />
+          <img src="/images/logo-removebg-preview.png" alt="logo" width="250" />
           <div class="jioproduct">
-            <img src="images/footer img 2.png" width="290" class="pt-3" />
+            <img src="/images/footer img 2.png" width="290" class="pt-3" />
           </div>
           <div class="jioproduct">
-            <img src="images/footer img 3.png" width="290" class="pt-3" />
+            <img src="/images/footer img 3.png" width="290" class="pt-3" />
           </div>
           <div class="footer-text pt-2">
             <p class="text-white" style="font-size: 17px">
@@ -1489,16 +597,16 @@ button.request {
             <div class="social-icon">
               <ul class="list-unstyled">
                 <li>
-                  <a href="#"><img src="images/Youtube icon.webp" width="30px" /></a>
+                  <a href="#"><img src="/images/Youtube icon.webp" width="30px" /></a>
                 </li>
                 <li>
-                  <a href="#"><img src="images/Twitter icon.webp" width="30px" /></a>
+                  <a href="#"><img src="/images/Twitter icon.webp" width="30px" /></a>
                 </li>
                 <li>
-                  <a href="#"><img src="images/facebook icon.webp" width="30px" /></a>
+                  <a href="#"><img src="/images/facebook icon.webp" width="30px" /></a>
                 </li>
                 <li>
-                  <a href="#"><img src="images/Instagam icon.webp" width="30px" /></a>
+                  <a href="#"><img src="/images/Instagam icon.webp" width="30px" /></a>
                 </li>
               </ul>
             </div>
@@ -1510,9 +618,9 @@ button.request {
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <img src="images/footer play img.webp" width="40px" class="ps-3" />
-            <img src="images/footer apple logo.webp" width="40px" class="ps-3" />
-            <img src="images/footer sotify logo.webp" width="40px" class="ps-3" />
+            <img src="/images/footer play img.webp" width="40px" class="ps-3" />
+            <img src="/images/footer apple logo.webp" width="40px" class="ps-3" />
+            <img src="/images/footer sotify logo.webp" width="40px" class="ps-3" />
           </div>
           <div class="col-lg-12 text-center">
             <h4 class="pt-3 text-white">
