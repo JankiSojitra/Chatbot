@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .main-btn:hover {
   background-color: #fab534 !important;
   color: #000 !important;
 }
+
 button.btn.main-btn {
   background-color: #fab534;
   padding: 0 !important;
@@ -32,10 +34,12 @@ button.btn.main-btn {
 #img:hover {
   background-color: #fff;
 }
+
 #button:hover {
   background: #fab534;
   color: #000;
 }
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -64,6 +68,7 @@ button.btn.main-btn {
 button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
   padding: 9px !important;
 }
+
 .d-flex.align-items-baseline.box {
   width: 100%;
   text-align: center;

@@ -370,15 +370,18 @@ section.slider-section1 {
   padding: 0px 9px;
   border-right: 3px solid #fff;
 }
+
 #header {
   transition: all 0.5s;
   z-index: 997;
   padding: 10px 0;
 }
+
 .main-btn:hover {
   background-color: #fab534 !important;
   color: #000 !important;
 }
+
 button.btn.main-btn {
   background-color: #fab534;
   padding: 0 !important;
@@ -419,6 +422,7 @@ button.btn.main-btn {
   color: #fff;
   border-radius: 25px;
 }
+
 #img:hover {
   background-color: #fff;
 }
@@ -427,6 +431,7 @@ button.btn.main-btn {
   background: #fab534;
   color: #000;
 }
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -486,11 +491,11 @@ button.btn.main-btn {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #47b2e4;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -502,7 +507,7 @@ button.btn.main-btn {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -514,7 +519,7 @@ button.btn.main-btn {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -586,7 +591,7 @@ button.btn.main-btn {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #47b2e4;
 }
 
@@ -622,11 +627,11 @@ button.btn.main-btn {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #000;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
   visibility: visible !important;
 }
@@ -642,6 +647,7 @@ button.btn.main-btn {
   margin-left: 20px;
   padding-right: 26px;
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
@@ -656,6 +662,7 @@ button.btn.main-btn {
     display: block;
     margin-top: 8%;
   }
+
   button.signup.free {
     background-color: #f8b434;
     margin-left: 90px;
@@ -665,15 +672,18 @@ button.btn.main-btn {
     border-radius: 7px;
     font-weight: 700;
   }
+
   .float-1 {
     width: 100% !important;
     margin-top: 20%;
   }
+
   .float-1 img {
     width: 100% !important;
     height: 200%;
     margin-top: 16px;
   }
+
   h2.\#tag1 {
     font-size: 35px;
     font-weight: 600;
@@ -682,6 +692,7 @@ button.btn.main-btn {
     padding-top: 30px;
     text-align: left;
   }
+
   p.\#tag2 {
     font-size: 19px;
     padding-left: 37px;
@@ -689,15 +700,18 @@ button.btn.main-btn {
     font-family: system-ui;
     text-align: left;
   }
+
   .float-1 img {
     width: 100%;
   }
+
   ul.\#menu-ul {
     list-style-type: none;
     display: block;
     padding-top: 38px;
     padding-left: 0px !important;
   }
+
   .shsadow {
     display: block;
     flex-wrap: wrap;
@@ -705,6 +719,7 @@ button.btn.main-btn {
     padding-right: 15px !important;
     padding-left: 15px;
   }
+
   .image-wraps {
     padding: 9px;
     width: 100%;
@@ -715,15 +730,18 @@ button.btn.main-btn {
     border-radius: 12px;
     margin-left: 0px !important;
   }
+
   .accordion {
     width: 100%;
     display: block;
     padding-bottom: 24px;
     margin-bottom: 30px;
   }
+
   .fa-icons {
     margin-left: 38%;
   }
+
   .accordion {
     width: 95%;
     display: block;
@@ -731,6 +749,7 @@ button.btn.main-btn {
     padding-bottom: 24px;
     margin-bottom: 30px;
   }
+
   button.request {
     padding: 7px 20px;
     background-color: #f8b434;
@@ -740,6 +759,7 @@ button.btn.main-btn {
     margin-bottom: 35px;
     margin-left: 75px;
   }
+
   h2.head-icon {
     text-align: center;
     margin-top: 40px;
@@ -747,6 +767,7 @@ button.btn.main-btn {
     font-weight: 700;
     font-family: sans-serif;
   }
+
   .box {
     width: 100%;
     text-align: center;
@@ -759,6 +780,7 @@ button.btn.main-btn {
     margin-left: 0px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .box {
     width: 87%;
@@ -771,6 +793,7 @@ button.btn.main-btn {
     box-shadow: 3px 0 13px -1px grey;
     margin-left: 18%;
   }
+
   .accordion {
     width: 90%;
     display: block;
@@ -778,13 +801,16 @@ button.btn.main-btn {
     padding-bottom: 24px;
     margin-bottom: 30px;
   }
+
   section.slider-section1 {
     background-color: burlywood;
     width: 128%;
   }
+
   .fa-icons {
     margin-left: 35%;
   }
+
   .flex-6-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -793,6 +819,7 @@ button.btn.main-btn {
     padding-left: 0px;
     margin-right: -20%;
   }
+
   .h2.head-icon {
     text-align: center;
     margin-top: 40px;
@@ -801,6 +828,7 @@ button.btn.main-btn {
     font-family: sans-serif;
     margin-left: 26%;
   }
+
   .shsadow {
     display: flex;
     flex-wrap: wrap;
@@ -808,16 +836,19 @@ button.btn.main-btn {
     padding-left: 25px !important;
     padding-right: 0px !important;
   }
+
   section.image-integration {
     background-color: #004c3d;
     width: 128%;
   }
+
   ul.\#menu-ul {
     list-style-type: none;
     display: flex;
     padding-top: 38px;
     padding-left: 0px !important;
   }
+
   .image-wraps {
     padding: 9px;
     width: 23%;
@@ -828,6 +859,7 @@ button.btn.main-btn {
     border-radius: 12px;
     margin-right: 8px;
   }
+
   button.request {
     padding: 7px 20px;
     background-color: #f8b434;
@@ -837,6 +869,7 @@ button.btn.main-btn {
     margin-bottom: 35px;
     margin-left: 40%;
   }
+
   .wrap-float {
     padding-bottom: 35px;
   }
@@ -851,6 +884,7 @@ button.btn.main-btn {
     justify-content: center;
     margin-bottom: 40px;
   }
+
   button.request {
     text-align: center;
     padding: 7px 20px;
@@ -861,6 +895,7 @@ button.btn.main-btn {
     display: block;
     margin: auto;
   }
+
   .flex-6-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -868,11 +903,13 @@ button.btn.main-btn {
     margin-top: 55px;
     margin-left: 0px !important;
   }
+
   .wrap-float {
     padding-bottom: 35px;
     width: 25%;
     margin-left: 5px;
   }
+
   .box {
     width: 55%;
     text-align: center;

@@ -93,10 +93,12 @@ input#Last\ name {
 .g2-img {
   padding-left: 30px;
 }
+
 img.apple-img {
   margin-left: 27px;
   margin-right: 19px;
 }
+
 .display-section {
   padding-left: 31px;
 }
@@ -127,13 +129,15 @@ h4.login-tag {
   z-index: 997;
   padding: 15px 0;
 }
+
 .main-btn {
   background-color: #fab534;
   padding: 0px !important;
   margin-left: 10px;
 }
-@media (min-width: 992px) {
-}
+
+@media (min-width: 992px) {}
+
 a.nav-link {
   padding-left: 15px !important;
   padding-right: 15px !important;
@@ -174,17 +178,21 @@ a.nav-link {
   color: white;
   border-radius: 25px;
 }
+
 .main-btn:hover {
   background-color: #fab534 !important;
   color: #000 !important;
 }
+
 #img:hover {
   background: #fff;
 }
+
 #button:hover {
   background: #fab534;
   color: #000;
 }
+
 #button {
   padding: 7px 18px;
 }
@@ -253,11 +261,11 @@ a.nav-link {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #47b2e4;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -269,7 +277,7 @@ a.nav-link {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -281,7 +289,7 @@ a.nav-link {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -353,7 +361,7 @@ a.nav-link {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #47b2e4;
 }
 
@@ -389,11 +397,11 @@ a.nav-link {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #000;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
   visibility: visible !important;
 }

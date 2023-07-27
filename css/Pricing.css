@@ -23,10 +23,12 @@ button.btn.main-btn {
 #img:hover {
   background-color: #fff;
 }
+
 #button:hover {
   background: #fab534;
   color: #000;
 }
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -76,6 +78,7 @@ button.btn.main-btn {
   font-weight: 600;
   line-height: 56px;
 }
+
 */
 
 /* slider styling */
@@ -151,10 +154,11 @@ button.btn.main-btn {
   border-radius: 25px;
   padding: 0.5rem;
 }
+
 */
 
 /* footer styling */
- .footer .title h4 {
+.footer .title h4 {
   font-size: 17px !important;
 }
 
@@ -331,11 +335,11 @@ label:after {
   transition: 0.3s;
 }
 
-input:checked + label {
+input:checked+label {
   background-color: #fab534;
 }
 
-input:checked + label:after {
+input:checked+label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }

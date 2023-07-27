@@ -18,6 +18,7 @@ h3.h1-signin-0 {
   text-align: center;
   margin-bottom: 12px;
 }
+
 img.google {
   margin: 2px 5px;
 }
@@ -44,8 +45,8 @@ input#Email\ Address {
   border: 1px solid gray;
   border-radius: 7px;
   display: block;
-    margin: auto;
-    margin-top: 13px;
+  margin: auto;
+  margin-top: 13px;
 }
 
 input#Password {
@@ -55,7 +56,7 @@ input#Password {
   border: 1px solid gray;
   border-radius: 7px;
   display: block;
-    margin: auto;
+  margin: auto;
 }
 
 
