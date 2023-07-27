@@ -9,19 +9,15 @@
   border: 2px solid gray;
   width: 41%;
   justify-content: center;
-  margin-left: 366px;
   padding: 5px;
   border-radius: 6px;
+  margin: auto;
 }
 
 h3.h1-signin-0 {
   text-align: center;
-  margin-top: 38px;
-  margin-bottom: 38px;
-  font-weight: 700;
-  padding: 30px;
+  margin-bottom: 12px;
 }
-
 img.google {
   margin: 2px 5px;
 }
@@ -42,33 +38,39 @@ h4.h4-section {
 }
 
 input#Email\ Address {
-  margin-left: 29%;
   width: 41%;
   margin-top: 40px;
   padding: 6px 8px 8px;
   border: 1px solid gray;
   border-radius: 7px;
+  display: block;
+    margin: auto;
+    margin-top: 13px;
 }
 
 input#Password {
-  margin-left: 29%;
   width: 41%;
   margin-top: 15px;
   padding: 6px 8px 8px;
   border: 1px solid gray;
   border-radius: 7px;
+  display: block;
+    margin: auto;
 }
+
 
 .sign-inside {
   background-color: #14977d;
   text-align: center;
   width: 41%;
   margin-left: 29%;
-  margin-top: 18px;
+  margin-top: 5px;
   padding: 1px;
   padding-top: 4px;
   color: white;
   border-radius: 9px;
+  display: block;
+  margin: auto;
 }
 
 h5.p-tag1 {
@@ -77,6 +79,7 @@ h5.p-tag1 {
   font-weight: 500;
   padding-top: 20px;
 }
+
 a {
   margin: auto;
   color: black;
@@ -110,11 +113,13 @@ a {
 li.nav-item {
   margin-right: 5px !important;
 }
+
 button.btn.main-btn {
   background-color: #fab534;
   padding: 0 !important;
   margin-left: 10px;
 }
+
 a.nav-link {
   text-align: center;
   margin-left: 0px;
@@ -200,11 +205,11 @@ a.nav-link {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #47b2e4;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -216,7 +221,7 @@ a.nav-link {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -228,7 +233,7 @@ a.nav-link {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -300,7 +305,7 @@ a.nav-link {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #47b2e4;
 }
 
@@ -329,14 +334,17 @@ a.nav-link {
 #img:hover {
   background-color: #fff;
 }
+
 .main-btn:hover {
   background-color: #fab534;
   color: #000;
 }
+
 #button {
   display: block;
   padding: 10px;
 }
+
 #button:hover {
   background: transparent;
   color: #000;
@@ -368,11 +376,11 @@ a.nav-link {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #000;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
   visibility: visible !important;
 }

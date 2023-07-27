@@ -12,9 +12,9 @@
 }
 
 h1.start-trial {
-  font-size: 29px;
+  font-size: 30px;
   font-family: sans-serif;
-  padding-left: 32px;
+  padding-left: 25px;
   margin-bottom: 24px;
 }
 
@@ -29,16 +29,15 @@ span.element-google {
   border: 1px solid black;
   padding: 4px;
   color: gray;
-  padding-right: 10px;
+  padding-right: 6px;
 }
 
 span.elemnt-shopify {
   border: 1px solid black;
   padding: 4px;
-  background-color: #5cce5cab;
   margin-left: 6px;
   color: black;
-  padding-right: 10px;
+  padding-right: 6px;
 }
 
 .border-bottom {
@@ -65,11 +64,12 @@ span.elemnt-shopify {
 
 input#Work\ Mail {
   margin-bottom: 10px;
-  width: 76%;
+  width: 95%;
   padding: 7px;
   border: transparent;
   background-color: lightgray;
   color: gray;
+
 }
 
 input#First\ name {
@@ -78,6 +78,7 @@ input#First\ name {
   background-color: lightgray;
   border: transparent;
   margin-bottom: 35px;
+  width: 45%;
 }
 
 input#Last\ name {
@@ -86,14 +87,22 @@ input#Last\ name {
   background-color: lightgray;
   padding: 9px;
   margin-left: 25px;
+  width: 45%;
 }
 
 .g2-img {
   padding-left: 30px;
 }
+img.apple-img {
+  margin-left: 27px;
+  margin-right: 19px;
+}
+.display-section {
+  padding-left: 31px;
+}
 
 .element-google {
-  margin-left: 14px;
+  margin-left: 10px;
 }
 
 button.next-button {
@@ -102,14 +111,15 @@ button.next-button {
   border: transparent;
   background-color: #fab534;
   border-radius: 6px;
-  margin-left: 25px;
-  margin-bottom: 30px;
+  display: block;
+  margin: auto;
 }
 
 h4.login-tag {
-  margin-left: 18%;
+  margin-left: 24%;
   font-size: 20px;
   font-family: sans-serif;
+  display: block;
 }
 
 #header {
@@ -772,15 +782,14 @@ button.button0tag {
 
   .span.element-google {
     border: 1px solid black;
-    padding: 13px;
+    padding: 6px;
     color: gray;
     padding-right: 7%;
   }
 
   span.elemnt-shopify {
     border: 1px solid black;
-    padding: 13px;
-    background-color: #5cce5cab;
+    padding: 6px;
     margin-left: 6px;
     color: black;
     padding-right: 7%;

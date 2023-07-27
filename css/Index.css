@@ -475,6 +475,7 @@ span.average {
   justify-content: space-around;
   margin-right: 40px;
   margin-left: 55px;
+  gap: 20px;
 }
 
 h4.span-0 {
