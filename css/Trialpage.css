@@ -24,20 +24,24 @@ h1.start-trial {
   width: 70%;
   line-height: 2pc;
 }
+.element-google {
+  display: flex;
+}
 
 span.element-google {
   border: 1px solid black;
   padding: 4px;
   color: gray;
-  padding-right: 6px;
+  width: 50%;
+  display: block !important;
+  margin: auto !important;
 }
-
 span.elemnt-shopify {
   border: 1px solid black;
   padding: 4px;
-  margin-left: 6px;
   color: black;
-  padding-right: 6px;
+  width: 50%;
+  margin-left: 2px;
 }
 
 .border-bottom {
@@ -50,7 +54,7 @@ span.elemnt-shopify {
 
 .border-w3 {
   border: 1px solid black;
-  width: 10%;
+  width: 18%;
   height: 0px;
 }
 
@@ -64,7 +68,7 @@ span.elemnt-shopify {
 
 input#Work\ Mail {
   margin-bottom: 10px;
-  width: 95%;
+  width: 100%;
   padding: 7px;
   border: transparent;
   background-color: lightgray;
@@ -77,17 +81,15 @@ input#First\ name {
   color: gray;
   background-color: lightgray;
   border: transparent;
-  margin-bottom: 35px;
-  width: 45%;
+  width: 50%;
 }
-
 input#Last\ name {
   border: transparent;
   color: gray;
   background-color: lightgray;
   padding: 9px;
   margin-left: 25px;
-  width: 45%;
+  width: 50%;
 }
 
 .g2-img {
@@ -103,18 +105,16 @@ img.apple-img {
   padding-left: 31px;
 }
 
-.element-google {
-  margin-left: 10px;
-}
-
 button.next-button {
-  width: 68%;
+  width: 100%;
   padding: 12px;
   border: transparent;
   background-color: #fab534;
   border-radius: 6px;
   display: block;
   margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 h4.login-tag {
@@ -314,11 +314,16 @@ a.nav-link {
   .mobile-nav-toggle {
     display: block;
   }
+  
 
-  .navbar ul {
-    display: none;
-  }
 }
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .navbar ul {
+ 
+    display: block !important;
+ 
+}
+} 
 
 .navbar-mobile {
   position: fixed;
@@ -422,7 +427,9 @@ a.nav-link {
   padding-top: 32px;
   margin-bottom: 15px;
 }
-
+.work-name {
+  display: flex;
+}
 .button-png {
   text-align: center;
   padding-bottom: 65px;
@@ -544,7 +551,10 @@ button.button0tag {
     gap: 40px;
     margin-top: 20%;
   }
-
+  .navbar ul {
+   display: block !important;
+ 
+}
   .element-tag-img {
     width: 100% !important;
     margin-left: 0 !important;
@@ -577,10 +587,11 @@ button.button0tag {
   }
 
   h1.start-trial {
-    font-size: 25px;
+    font-size: 20px;
     font-family: sans-serif;
     padding-left: 32px;
     margin-bottom: 24px;
+    text-align: center;
   }
 
   .element-google {
@@ -588,7 +599,14 @@ button.button0tag {
     display: block;
     margin-bottom: 10px;
   }
-
+  span.element-google {
+    border: 1px solid black;
+    padding: 4px;
+    color: gray;
+    width: 100%;
+    display: block !important;
+    margin: auto !important;
+}
   .border-bottom {
     display: flex;
     justify-content: flex-start;
@@ -601,12 +619,24 @@ button.button0tag {
   span.elemnt-shopify {
     border: 1px solid black;
     padding: 5px;
-    background-color: #5cce5cab;
     color: black;
-    max-width: 100% !important;
+    width: 100%;
     display: block;
     margin: auto;
+    
+}
+span.elemnt-shopify {
+    border: 1px solid black;
+    padding: 4px;
+    color: black;
+    width: 100%;
+    margin-top: 8px;
   }
+  .border-w3 {
+    border: 1px solid black;
+    width: 6%;
+    height: 0px;
+}
 
   button.next-button {
     width: 71%;
@@ -640,7 +670,6 @@ button.button0tag {
     color: gray;
     background-color: lightgray;
     border: transparent;
-    margin-bottom: 10px;
     width: 100%;
   }
 
@@ -671,7 +700,7 @@ button.button0tag {
   }
 
   .box {
-    width: 100%;
+    width: 100% !important;
     text-align: center;
     background-color: white;
     border: 0.5px solid grey;
@@ -686,10 +715,14 @@ button.button0tag {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .section-1 {
     display: block;
-    margin-top: 9%;
+    margin-top: 15%;
     margin-bottom: 50px;
   }
-
+  .navbar ul {
+ 
+    display: block !important;
+ 
+}
   .element-tag-img {
     width: 100%;
     margin-left: 0px !important;
@@ -699,6 +732,13 @@ button.button0tag {
     object-fit: contain;
     width: 100%;
   }
+  h1.start-trial {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
 
   .fafa-section {
     display: block;
@@ -718,17 +758,36 @@ button.button0tag {
   }
 
   .element-tag-img {
-    width: 100%;
+    width: 100% !important;
   }
 
   .element-google {
-    margin-left: 0px !important;
+      margin-left: 0px !important;
+      display: block;
+  }
+  span.element-google {
+    border: 1px solid black;
+    padding: 4px;
+    color: gray;
+    width: 100%;
+    display: block !important;
+    margin: auto !important;
+}
+  
+  span.elemnt-shopify {
+    border: 1px solid black;
+    padding: 6px;
+    color: black;
+    padding-right: 7%;
     display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 12px;
   }
 
   .border-w3 {
     border: 1px solid black;
-    width: 12%;
+    width: 25%;
     height: 0px;
   }
 
@@ -747,7 +806,7 @@ button.button0tag {
     background-color: lightgray;
     border: transparent;
     width: 100%;
-    margin-bottom: 11px;
+    margin-right: 10px;
   }
 
   input#Last\ name {
@@ -767,26 +826,27 @@ button.button0tag {
     border-radius: 6px;
     display: block;
     margin: auto;
-  }
-
-  .box {
-    width: 90%;
-    text-align: center;
-    background-color: white;
-    border: 0.5px solid grey;
-    border-left: 0;
-    border-bottom: 0;
-    border-radius: 20px;
-    box-shadow: 3px 0 13px -1px grey;
-    margin: auto;
-    display: block;
-  }
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
 }
+.box {
+  width: 90%;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 3px 0 13px -1px grey;
+  margin: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+  
+}
+  
 
 @media only screen and (min-width: 1920px) and (max-width: 1989px) {
-  .element-google {
-    margin-left: 35px;
-  }
 
   .span.element-google {
     border: 1px solid black;
@@ -798,9 +858,12 @@ button.button0tag {
   span.elemnt-shopify {
     border: 1px solid black;
     padding: 6px;
-    margin-left: 6px;
     color: black;
     padding-right: 7%;
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 12px;
   }
 
   .border-bottom {

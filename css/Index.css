@@ -20,7 +20,11 @@ button.btn.main-btn {
   color: #fff;
   border-radius: 25px;
 }
-
+.d-flex.align-items-baseline.box {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
 .main {
   padding-left: 2rem;
 }
@@ -963,4 +967,57 @@ button.button0tag {
   float: left;
   padding: 0px 9px;
   border-right: 3px solid #fff;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .image {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+    justify-content: center;
+    margin-top: -22px;
+    padding-left: 0px;
+}
+.w3-image img {
+  width: 332px;
+  height: 347px;
+}
+.w3-image {
+  width: 100% !important;
+}
+.float-1 {
+  display: block;
+}
+.img-html-1 {
+  margin-top: 25px;
+  padding-left: 0px !important;
+  height: auto;
+  width: 321px !important;
+}
+.hello-flex {
+  display: block;
+  justify-content: space-around;
+  margin-right: 40px;
+  margin-left: 40px;
+  gap: 20px;
+}
+.box-tag {
+  width: 100% !important;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 3px 0 13px -1px grey;
+  margin-left: 0px !important;
+  margin-top: 6%;
+
+}
+.d-flex.align-items-baseline.box {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
 }

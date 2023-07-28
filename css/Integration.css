@@ -37,6 +37,7 @@ button.signup.free {
   border: 2px solid transparent;
   border-radius: 7px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 
@@ -49,8 +50,6 @@ section.image-integration {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .image-wraps img {
@@ -251,7 +250,7 @@ p.abc {
 }
 
 .box {
-  width: 55%;
+  width: 65%;
   text-align: center;
   background-color: white;
   border: 0.5px solid grey;
@@ -356,6 +355,9 @@ section.slider-section1 {
 .footer-bottom {
   padding-top: 30px;
   padding-bottom: 15px;
+}
+.template-1 {
+  display: flex;
 }
 
 .social-icon-bottom ul {
@@ -544,10 +546,15 @@ button.btn.main-btn {
   .mobile-nav-toggle {
     display: block;
   }
-
-  .navbar ul {
-    display: none;
+}
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .navbar ul {
+   
+      
+      display: block !important;
+   
   }
+
 }
 
 .navbar-mobile {
@@ -663,6 +670,10 @@ button.btn.main-btn {
     margin-top: 8%;
   }
 
+
+  .template-1 {
+    display: block;
+}
   button.signup.free {
     background-color: #f8b434;
     margin-left: 90px;
@@ -716,8 +727,6 @@ button.btn.main-btn {
     display: block;
     flex-wrap: wrap;
     justify-content: start;
-    padding-right: 15px !important;
-    padding-left: 15px;
   }
 
   .image-wraps {
@@ -793,7 +802,10 @@ button.btn.main-btn {
     box-shadow: 3px 0 13px -1px grey;
     margin-left: 18%;
   }
-
+  .navbar ul {
+   display: block !important;
+ 
+}
   .accordion {
     width: 90%;
     display: block;
@@ -833,8 +845,6 @@ button.btn.main-btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    padding-left: 25px !important;
-    padding-right: 0px !important;
   }
 
   section.image-integration {
@@ -851,7 +861,7 @@ button.btn.main-btn {
 
   .image-wraps {
     padding: 9px;
-    width: 23%;
+    width: 22%;
     padding-inline: 10px;
     background-color: white;
     margin: 6px;

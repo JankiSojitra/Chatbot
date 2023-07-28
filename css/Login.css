@@ -261,8 +261,9 @@ a.nav-link {
   }
 
   .navbar ul {
-    display: none;
-  }
+  display: block !important;
+ 
+}
 }
 
 .navbar-mobile {
@@ -397,6 +398,10 @@ a.nav-link {
     margin-left: 7%;
     margin-top: 21%;
   }
+  .navbar ul {
+   display: block !important;
+ 
+}
 
   .sign-inside {
     background-color: #14977d;
@@ -446,7 +451,10 @@ a.nav-link {
     padding: 5px;
     border-radius: 6px;
   }
-
+  .navbar ul {
+   display: block !important;
+ 
+}
   input#Email\ Address {
     margin-left: 18%;
     width: 64%;
