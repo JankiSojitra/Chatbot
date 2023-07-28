@@ -279,6 +279,10 @@
   line-height: 37px;
 }
 
+.iconbar {
+  display: none !important;
+}
+
 /* acquire styling */
 
 /* .active {
@@ -347,6 +351,15 @@
   background-color: #e3e0e0;
   border-radius: 25px;
   padding: 0.5rem;
+}
+
+.hollh {
+  height: 105vh;
+}
+
+.cardstyle {
+  width: 17rem;
+  background-color: transparent;
 }
 
 /* footer styling */
@@ -1763,10 +1776,6 @@ input:checked + label:after {
 
 /*anand about us page css code*/
 
-.about-style {
-  height: auto;
-}
-
 .about-frame {
   background-color: #004c3d;
   height: 60vh;
@@ -1785,7 +1794,6 @@ input:checked + label:after {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  
 }
 
 .left_arrow3 {
@@ -1815,7 +1823,7 @@ input:checked + label:after {
   cursor: pointer;
 }
 
-/* Slider */
+/* Slider
 .slick-slider {
   position: relative;
 
@@ -1916,4 +1924,4 @@ input:checked + label:after {
 }
 .slick-arrow.slick-hidden {
   display: none;
-}
+} */

@@ -17,12 +17,12 @@
     padding-top: 3rem;
   }
 
-  .about-frame {
-    height: 32vh;
+  .iconbar {
+    display: block !important;
   }
 
   .slider1 {
-    width: 333px !important;
+    width: 344px !important;
   }
 
   .left_arrow3 {
@@ -43,16 +43,19 @@
   .right_arrow {
     left: 56%;
   }
+
+  .hollh {
+    height: 55vh;
+  }
+
+  .cardstyle {
+    display: none;
+  }
 }
 
 @media (max-width: 675px) {
   .main {
     padding: 0;
-  }
-
-  .pricing-plan {
-    margin-right: 0px !important;
-    margin-top: 20px;
   }
 
   .pricing-plan {
@@ -113,6 +116,22 @@
 
   .light {
     display: none !important;
+  }
+
+  .cardstyle {
+    display: none;
+  }
+
+  .hollh {
+    height: 95vh;
+  }
+
+  .iconbar {
+    display: block !important;
+  }
+
+  .about-frame {
+    height: 23vh !important;
   }
 }
 
