@@ -174,11 +174,11 @@ button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
 
 /* janki start css html.index page */
 
-.w3-image img {
+/* .w3-image img {
   width: 550px;
   height: 440px;
   padding-left: 65px;
-}
+} */
 
 .navigation {
   display: flex;
@@ -235,12 +235,12 @@ p {
   margin-top: 3px;
 }
 
-.w3-image {
+/* .w3-image {
   padding-left: 20px;
 
   text-align: justify;
   margin-right: 28px;
-}
+} */
 
 i.fa.fa-check {
   padding-top: 21px;
@@ -287,6 +287,7 @@ li.support {
 h1.h1.tag {
   margin-top: 50px;
   font-family: math;
+  display: inline-block;
 }
 
 li.active {
@@ -333,6 +334,7 @@ section.experience {
 h3.h3-tag {
   font-size: 20px;
   font-family: math;
+  display: inline-block;
 }
 
 .w-icon {

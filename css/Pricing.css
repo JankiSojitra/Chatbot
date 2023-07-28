@@ -402,7 +402,7 @@ label:active:after {
 }
 
 .price-fuature-list ul li::before {
-  background-image: url(../images/list.png);
+  background-image: url(s/list.png);
   width: 28px;
   height: 16px;
   content: "";
