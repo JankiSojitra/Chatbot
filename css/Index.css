@@ -194,7 +194,7 @@ button.btn.ms-3.main-btn.end-btn.bg-black.text-white.mt-3 {
 }
 
 .menu-li {
-  display: block;
+  color: white;
   padding-inline: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
