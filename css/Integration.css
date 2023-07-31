@@ -258,7 +258,8 @@ p.abc {
   border-bottom: 0;
   border-radius: 20px;
   box-shadow: 3px 0 13px -1px grey;
-  margin-left: 23%;
+  display: block;
+    margin: auto;
 }
 
 button.botton-element {
@@ -303,21 +304,31 @@ h1.faqa {
 .accordion-item {
   margin-bottom: 1rem;
 }
-
+p.font-ptag {
+  font-size: 11px;
+}
 .accordion {
-  width: 71%;
+  width: 70%;
   display: block;
   margin-left: 15%;
   padding-bottom: 24px;
   margin-bottom: 30px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+   padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
 }
+
 
 .accordion-button {
   background-color: #f8f9fa;
   color: #212529 !important;
-  font-weight: bold;
-  font-size: 1rem;
+  font-size: 13PX;
   border-radius: 0.25rem;
+  font-weight: 500;
 }
 
 .accordion-body {
@@ -349,8 +360,11 @@ h1.faqa {
 }
 
 section.slider-section1 {
-  background-color: burlywood;
+    background-color: #e6c397;
+    padding-bottom: 13px;
+    margin-bottom: 32px;
 }
+
 
 .footer-bottom {
   padding-top: 30px;

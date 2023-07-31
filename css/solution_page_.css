@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .main-btn:hover {
+    background-color: #fab534 !important;
+    color: #000 !important;
+  }
+
+  button.btn.main-btn {
+    background-color: #fab534;
+    padding: 0 !important;
+    margin-left: 10px;
+  }
+
+  .navbar a:hover {
+    background: #05a68b;
+    color: #fff;
+    border-radius: 25px;
+  }
+
+  .d-flex.align-items-baseline.box {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .main {
+    padding-left: 2rem;
+  }
+
+  /* navbar styling */
+
+  .navbar {
+    padding: 6px;
+  }
+
+  #img:hover {
+    background-color: #fff;
+  }
+
+  #button:hover {
+    background: #fab534;
+    color: #000;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 8px 17px !important;
+  }
+
+  .sub-btn {
+    border-radius: 10px;
+    background-color: #f8b434;
+    color: #000 !important;
+    font-size: 16px;
+    padding: 17px 20px;
+    line-height: 10px;
+  }
+
+
+
+  section.template-solution {
+    margin-top: 8%;
+  }
+
+  .disply-solution {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  img.b2b.img {
+    width: 470px;
+    display: block;
+    margin: auto;
+    margin-left: 10%;
+    height: auto;
+  }
+
+  h1.solution-1st {
+    text-align: left;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 40px;
+  }
+
+  .icon-solution {
+    display: flex;
+    line-height: 1pc;
+    font-size: 14px;
+
+  }
+
+  i.fa.fa-check {
+    color: #5bcc5b;
+  }
+
+  button.try\.inkart {
+    padding: 10px 10px;
+    border: transparent;
+    border-radius: 7px;
+    background-color: #fab534;
+    margin-right: 25px;
+  }
+
+  button.get_live {
+    padding: 8px 22px;
+    border: 2px solid #fab534;
+    border-radius: 7px;
+    background-color: whitesmoke;
+  }
+
+  .bg-solution {
+    background-color: #004c3d;
+    margin-top: 30px;
+    padding-top: 29px;
+    padding-bottom: 28px;
+    text-align: center;
+  }
+
+  h2.h3-solution {
+    color: white;
+    font-size: 30px;
+  }
+
+  h4.h4-solution {
+    color: #91e4d5;
+  }
+
+  span.font-tag {
+    font-size: 20px !important;
+    color: black !important;
+  }
+
+  h3.Acquire-tag {
+    font-size: 13px;
+    color: grey;
+  }
+
+  .fafa-solution {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .icon-heading {
+    margin-top: 40px;
+  }
+
+  i.fa.fa-mouse-pointer {
+    color: white;
+    background-color: #004c3d;
+    padding: 20px;
+    border: transparent;
+    border-radius: 40px;
+    padding-left: 27px;
+    margin-right: 35px;
+  }
+
+  i.fa.fa-envelope-square {
+    color: white;
+    background-color: #fab534;
+    padding: 20px;
+    border: transparent;
+    border-radius: 40px;
+    padding-left: 22px;
+    margin-left: 20px;
+    margin-right: 35px;
+  }
+
+  i.fa.fa-smile-o {
+    color: white;
+    background-color: rgb(45, 185, 45);
+    padding: 20px;
+    border: transparent;
+    border-radius: 40px;
+    padding-left: 23px;
+    margin-left: -20px;
+    margin-right: 35px;
+  }
+
+  i.fa.fa-bell {
+    color: white;
+    background-color: rgb(46, 46, 233);
+    padding: 20px;
+    border: transparent;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 35px;
+  }
+
+  .flex-solution {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  img.b2b0-img {
+    width: 510px;
+    height: fit-content;
+  }
+
+  i.fa.fa-dot-circle-o::before {
+    color: #118d11;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  span {
+    font-size: 15px;
+    font-family: math;
+  }
+
+  h3.marketing {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  button.try_for {
+    padding: 8px 20px;
+    margin-top: 14px;
+    border: transparent;
+    border-radius: 6px;
+    background-color: #fab534;
+    font-weight: 500;
+  }
+
+  .img-paragraph {
+    display: flex;
+    margin-top: 5%;
+  }
+
+  img.wechat {
+    width: 501px;
+    height: auto;
+  }
+
+  h3.b2b-whatsapp {
+    margin-top: 35px;
+    font-size: 29px;
+    font-family: system-ui;
+    font-weight: 600;
+  }
+
+  .page-1-paragraph {
+    margin-left: 22px;
+  }
+
+  .solution-p0tag {
+    margin-left: 23px;
+    margin-top: 20px;
+  }
+
+  .img-paragraph {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    background-color: #cbf2e4;
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+  img.wecha0 {
+    width: 525px;
+    height: auto;
+  }
+
+  .section-solution {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  h3.convercation {
+    margin-top: 45px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  img.phone-o {
+    width: 480px;
+    height: auto;
+  }
+
+  .section-1page {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: #fff2da;
+    padding-top: 30px;
+    padding-bottom: 23px;
+  }
+
+  img.wechat-section {
+    width: 520px;
+    height: auto;
+  }
+
+  .section-tag3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  h3.automation {
+    margin-top: 13%;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .img-elemmmant-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 126px;
+    margin-left: 8px;
+    padding-right: 54px;
+  }
+
+  img.frame_w3 {
+    width: 12%;
+    height: auto;
+    padding-bottom: 14px;
+    padding-right: 11px;
+
+  }
+
+  .envelope {
+    background-color: #cbf2e4;
+    padding-top: 21px;
+    margin-top: 27px;
+    padding-bottom: 17px;
+  }
+
+  h4.platform {
+    padding-top: 8px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .b2b-sales {
+    display: flex;
+    justify-content: center;
+    background-color: #004c3d;
+    padding-top: 51px;
+    padding-bottom: 2%;
+  }
+
+  img.wechat-solution {
+    width: 530px;
+    height: 317px;
+  }
+
+  h3.b2b-cycle {
+    color: white;
+    margin-top: 26px;
+    font-size: 35px;
+    margin-right: 23px;
+  }
+
+  button.start-try_for {
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #fab534;
+  }
+
+  .w3box {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    margin-bottom: 15px;
+  }
+
+  .button-png {
+    text-align: center;
+    padding-bottom: 65px;
+    margin-bottom: 95px;
+  }
+
+  button.png {
+    padding: 16px 46px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: #fab354;
+  }
+
+  h2.box-sizing {
+    font-size: 33px;
+    letter-spacing: 1px;
+    margin-bottom: -17px;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+
+  p.abc {
+    margin-right: 23px;
+    font-size: 17px;
+    font-family: math;
+  }
+
+  .box {
+    width: 65%;
+    text-align: center;
+    background-color: white;
+    border: 0.5px solid grey;
+    border-left: 0;
+    border-bottom: 0;
+    border-radius: 20px;
+    box-shadow: 3px 0 13px -1px grey;
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 20px;
+  }
+
+  button.botton-element {
+    width: 287px;
+    padding: 17px;
+    font-size: 17px;
+    border: 0px solid;
+    border-radius: 8px;
+    background-color: #fab534;
+    margin-bottom: 10px;
+    font-family: math;
+    font-weight: 600;
+  }
+
+  h2.element-tag {
+    margin-bottom: 40px;
+    margin-top: 26px;
+    font-size: 33px;
+    font-family: math;
+    font-weight: 600;
+  }
+
+  button.button0tag {
+    width: 250px;
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 7px;
+    background-color: #479974;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+
+  /* *footer csss */
+  .footer .title h4 {
+    font-size: 17px !important;
+  }
+
+  .footer .title ul li {
+    padding-bottom: 10px;
+  }
+
+  .footer .title ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer .title ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icon ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .social-icon-bottom ul {
+    display: inline;
+  }
+
+  .country ul li {
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 700;
+    float: left;
+    padding: 0px 9px;
+    border-right: 3px solid #fff;
+  }
