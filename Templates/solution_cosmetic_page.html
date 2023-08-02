@@ -16,509 +16,96 @@
   <link href="https:/cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="../css/solution_cosmetic_css.css">
 </head>
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-  .main-btn:hover {
-    background-color: #fab534 !important;
-    color: #000 !important;
-  }
-
-  button.btn.main-btn {
-    background-color: #fab534;
-    padding: 0 !important;
-    margin-left: 10px;
-  }
-
-  .navbar a:hover {
-    background: #05a68b;
-    color: #fff;
-    border-radius: 25px;
-  }
-
-  .d-flex.align-items-baseline.box {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-
-  .main {
-    padding-left: 2rem;
-  }
-
-  /* navbar styling */
-
-  .navbar {
-    padding: 6px;
-  }
-
-  #img:hover {
-    background-color: #fff;
-  }
-
-  #button:hover {
-    background: #fab534;
-    color: #000;
-  }
-
-  .navbar a,
-  .navbar a:focus {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000;
-    white-space: nowrap;
-    transition: 0.3s;
-    text-decoration: none;
-    padding: 8px 17px !important;
-  }
-
-  .sub-btn {
-    border-radius: 10px;
-    background-color: #f8b434;
-    color: #000 !important;
-    font-size: 16px;
-    padding: 17px 20px;
-    line-height: 10px;
-  }
-
-  .disply-template {
-    display: flex;
-    justify-content: center;
-    margin-top: 8%;
-  }
-
-  img.temt-img {
-    width: 529px;
-    height: auto;
-  }
-
-  h1.h1_tempalte {
-    margin-top: 9%;
-    margin-right: 52px;
-    font-size: 37px;
-    font-weight: 600;
-    margin-bottom: 24px;
-  }
-
-  .solution_check {
-    display: flex;
-    margin-top: -9px;
-    color: #2d2020;
-    font-family: math;
-  }
-
-  i.fa.fa-check {
-    color: #54bd54;
-    margin-left: -6px;
-  }
-
-  button.try\.inkart {
-    padding: 10px 10px;
-    border: transparent;
-    border-radius: 7px;
-    background-color: #fab534;
-    margin-right: 25px;
-  }
-
-  button.get_live {
-    padding: 8px 22px;
-    border: 2px solid #fab534;
-    border-radius: 7px;
-    background-color: whitesmoke;
-  }
-
-  span.font-tag {
-    font-size: 20px !important;
-    color: black !important;
-  }
-
-  h3.Acquire {
-    font-size: 15px;
-    color: #847b7b;
-  }
-
-  h3.fafa-icon-p {
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 3%;
-  }
-
-  .fa-solution {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 15px;
-  }
-
-  .icon-heading {
-    margin-top: 40px;
-  }
-
-  i.fa.fa-mouse-pointer {
-    color: white;
-    background-color: #004c3d;
-    padding: 20px;
-    border: transparent;
-    border-radius: 40px;
-    padding-left: 27px;
-    margin-right: 35px;
-  }
-
-  i.fa.fa-envelope-square {
-    color: white;
-    background-color: #fab534;
-    padding: 21px;
-    border: transparent;
-    border-radius: 40px;
-    padding-left: 22px;
-    margin-left: -45px;
-    margin-right: 35px;
-  }
-
-  i.fa.fa-smile-o {
-    color: white;
-    background-color: rgb(45, 185, 45);
-    padding: 21px;
-    border: transparent;
-    border-radius: 40px;
-    padding-left: 23px;
-    margin-left: -29px;
-    margin-right: 35px;
-  }
-
-  i.fa.fa-bell {
-    color: white;
-    background-color: rgb(46, 46, 233);
-    padding: 20px;
-    border: transparent;
-    border-radius: 40px;
-    padding-left: 20px;
-    margin-right: 35px;
-  }
-
-  span.tag {
-    font-size: 19px;
-    color: black;
-  }
-
-  .flex-solution {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-  }
-
-  i.fa.fa-dot-circle-o::before {
-    color: #118d11;
-    font-size: 18px;
-    margin-right: 10px;
-  }
-
-  .elemnt_h1 {
-    text-align: center;
-    background-color: #fff2da;
-    padding-top: 36px;
-    padding-bottom: 20px;
-  }
-
-  h3.element_10 {
-    padding-bottom: 11px;
-    font-size: 29px;
-    font-weight: 600;
-  }
-
-  img.cosmetics-img {
-    width: 500px;
-    height: auto;
-    border: none;
-    border-radius: 25px;
-  }
-
-  .disply-cosmetics {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-  }
-
-  h1.h1_cosmetic {
-    font-size: 37px;
-    font-weight: 600;
-    margin-right: 25px;
-    margin-top: 73px;
-    margin-bottom: 20px;
-  }
-
-  .cosmetics_icon {
-    display: flex;
-  }
-
-  i.fa.fa-check-circle {
-    font-size: 22px !important;
-    color: #06a58a;
-    margin-right: 8px;
-  }
-
-  button.inkart_trial {
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fab534;
-  }
-
-  img.cosmetics0img {
-    width: 500px;
-    height: auto;
-    border: none;
-    border-radius: 25px;
-  }
-
-  .cosmetic-section-3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-  }
-
-  .cosmetis_w3 {
-    display: flex;
-    margin-left: 20px;
-  }
-
-  h1.h1cosmeticsss {
-    font-size: 40px;
-    font-weight: 600;
-    margin-left: 21px;
-    margin-top: 14%;
-  }
-
-  img.cosmeticsproduct {
-    width: 500px;
-    height: auto;
-    border: none;
-    border-radius: 25px;
-  }
-
-  .cosmetic-section4 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-  }
-
-  h1.h1cosmetic-page {
-    font-size: 35px;
-    font-weight: 600;
-    margin-top: 20%;
-  }
-
-  .cosmetis {
-    display: flex;
-    margin-right: 29px;
-  }
-
-  button.sing_today {
-    padding: 10px 18px;
-    color: white;
-    background-color: #005c51;
-    border: none;
-    border-radius: 7px;
-  }
-
-  img.cosmeticcss_img {
-    width: 500px;
-    border: none;
-    border-radius: 25px;
-    height: 472px;
-  }
-
-  .cosmetic-section5 {
-    display: flex;
-    margin-top: 5%;
-    justify-content: center;
-    border-bottom: 2px solid gray;
-    border-radius: 5px;
-    padding-bottom: 22px;
-  }
-
-  .cosmetis-page_5 {
-    display: flex;
-    line-height: 1pc;
-    margin-bottom: 4px;
-  }
-
-  h1.h1tag_cosmetic {
-    font-size: 35px;
-    font-weight: 600;
-    margin-top: 3%;
-  }
-
-  button.starttrial {
-    padding: 9px 22px;
-    border: none;
-    border-radius: 8px;
-    background-color: #feac00;
-  }
-
-  .cosmeticss_p1 {
-    margin-left: 20px;
-  }
-  img.product-img6 {
-    width: 550px;
-    height: 450px;
-}
-.cosmetics-pro-section {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 4%;
-}
-p.italic_tag {
-    font-size: 25px;
-    border-bottom: 2px solid grey;
-    margin-top: 9%;
-    margin-right: 25px;
-    padding-bottom: 17px;
-}
-
-.w3section-cosmetic {
-    display: flex;
-    margin-top: 8%;
-}
-.w3-tag-c {
-    background-color: #005c51;
-    color: #ffffff;
-    padding: 9px 25px;
-    text-align: center;
-    border: none;
-    border-radius: 13px;
-    margin-right: 5px;
-}
-.w3-product {
-    background-color: #005c51;
-    color: white;
-    border: none;
-    border-radius: 13px;
-    text-align: center;
-    margin-left: 9px;
-    padding: 9px 16px;
-    margin-right: 5px;
-}
-.w3c_cosmetic {
-    text-align: center;
-    background-color: #005c51;
-    color: white;
-    border: none;
-    border-radius: 13px;
-    margin-left: 8px;
-    padding: 10px 14px;
-    margin-right: 23px;
-}
-span.nav-cosmetics {
-    font-size: 35px;
-    font-weight: 800;
-    color: #fab534;
-}
-.img-elemmmant_icon {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 126px;
-    margin-left: 8px;
-    padding-right: 54px;
-  }
-
-  img.frame_product {
-    width: 12%;
-    height: auto;
-    padding-bottom: 14px;
-    padding-right: 11px;
-
-  }
-
-  .envelope-cosmetic {
-    background-color: #fff2da;
-    padding-top: 21px;
-    margin-top: 27px;
-    padding-bottom: 17px;
-  }
-
-  h4.platform {
-    padding-top: 8px;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  .cosmetic-1tag {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-}
-img.cosmeticimg_0 {
-    width: 500px;
-    height: auto;
-    border-radius: 25px;
-}
-h1.h1cosmetic_0 {
-    font-size: 37px;
-    font-weight: 600;
-    padding-bottom: 5px;
-    margin-top: 14%;
-}
-.cosmetis_tag10 {
-    display: flex;
-    font-family: math;
-    font-size: 17px;
-    margin-right: 25px;
-}
-</style>
 
 <body>
-  <div class="container-fluid p-1">
-    <div class="container main">
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
-        <div class="container">
-          <a href="../Templates/Index.html" class="p-0" id="img"><img src="../images/logo.jpg" width="200px" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Solution</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Templates/Integration.html">Integration</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Templates/Pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Templates/AboutUs.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Templates/Login.html">Login</a>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container">
+      <a href="../Templates/Index.html" id="img"
+        ><img src="../images/logo.jpg" width="200px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown" id="myDropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+              >Solution</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a href="">By Industries &raquo</a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../Templates/Solution_page_1.html"
+                      >B2B</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../Templates/solution_cosmetic_page.html"
+                      >Beauty & cosmetics Brands</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../Templates/solution_spa_saloons.html"
+                      >Spas and Salons</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
-            <button class="btn main-btn p-3" type="submit">
-              <a id="button" href="../Templates/TrialPage.html"> start Free Trial</a>
-            </button>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Templates/Integration.html"
+              >Integration</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Templates/Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Templates/AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Templates/Login.html">Login</a>
+          </li>
+        </ul>
+        <button class="btn main-btn p-3" type="submit">
+          <a id="button" href="../Templates/TrialPage.html"
+            >start Free trial</a
+          >
+        </button>
+      </div>
     </div>
-    <div>
+  </nav>
 
       <section class="template_1">
         <div class="container">
           <div class="disply-template">
-            <div class="bussiness-p1"style="50%">
+            <div class="bussiness-p1"style="width; 50%">
               <h1 class="h1_tempalte">Unlock the potential of<br> WhatsApp Business for<br> your Beauty & <br>Cosmetics
                 brand</h1>
 
@@ -541,7 +128,7 @@ h1.h1cosmetic_0 {
             </div>
 
 
-            <div class="bussiness-p1"style="50%">
+            <div class="bussiness-p1"style="width; 50%">
               <img class="temt-img" src="../images/cosmetic_1.webp">
             </div>
           </div>
@@ -554,27 +141,27 @@ h1.h1cosmetic_0 {
         <div class="icon-fafaicon">
           <div class="fa-solution">
             <i class='fa fa-mouse-pointer' style='font-size:24px'></i>
-            <h3 class="Acquire"><span class=tag>Acquire</span><br>Integrate your website with Interakt’s WhatsApp
+            <h3 class="Acquire"><span class="tag">Acquire</span><br>Integrate your website with Interakt’s WhatsApp
               Business Platform & streamline business operations. Answer FAQs via custom auto-replies<br>
               and help customers in making the right purchase decisions</h3>
           </div>
 
           <div class="fa-solution">
             <i class="fa fa-envelope-square" style="font-size:24px"></i>
-            <h3 class="Acquire"><span class=tag>Convert</span><br>Upsell & Cross-sell with personalized beauty &
+            <h3 class="Acquire"><span class="tag">Convert</span><br>Upsell & Cross-sell with personalized beauty &
               cosmetics
               recommendations on WhatsApp. Send payment links for quick settlements</h3>
           </div>
 
           <div class="fa-solution">
             <i class="fa fa-smile-o" style="font-size:24px"></i>
-            <h3 class="Acquire"><span class=tag>Delight</span><br>Solve customer queries & support them at scale on
+            <h3 class="Acquire"><span class="tag">Delight</span><br>Solve customer queries & support them at scale on
               WhatsApp. Gather ratings/feedback from clients using WhatsApp automated flows</h3>
           </div>
 
           <div class="fa-solution">
             <i class="fa fa-bell" style="font-size:24px"></i>
-            <h3 class="Acquire"><span class=tag>Engage</span><br>Send new launch & festive sale offers to drive sales.
+            <h3 class="Acquire"><span class="tag">Engage</span><br>Send new launch & festive sale offers to drive sales.
               Send regular tips on how to use beauty & cosmetics products for the ones they bough
 
             </h3>
@@ -582,7 +169,7 @@ h1.h1cosmetic_0 {
         </div>
       </div>
 
-
+        <div class="container">
       <div class="elemnt_h1">
         <h3 class="element_10">How to use WhatsApp Business API to grow your business</h3>
         <p class="element-ptag" style="font-size: 16px;">The beauty and cosmetics industry is growing at a rapid annual
@@ -590,11 +177,12 @@ h1.h1cosmetic_0 {
           with more brands joining the league to meet consumer demand. See how leading brands use WhatsApp<br>
           Business API to acquire, convert and engage online shoppers in the rising competition.</p>
       </div>
+    </div>
 
       <section class="solution_cosmetic">
         <div class="container">
           <div class="disply-cosmetics">
-            <div class="cosmetic-p1"style="50%">
+            <div class="cosmetic-p1" style="width :50%">
               <h1 class="h1_cosmetic">Acquire new customers for your<br> Beauty & Cosmetic brand</h1>
 
               <div class="cosmetics_icon">
@@ -620,7 +208,7 @@ h1.h1cosmetic_0 {
             </div>
 
 
-            <div class="cosmetics-p1"style="50%">
+            <div class="cosmetics-p1"style="width; 50%">
               <img class="cosmetics-img" src="../images/cosmetic_2.webp">
             </div>
           </div>
@@ -633,11 +221,11 @@ h1.h1cosmetic_0 {
         <div class="container">
           <div class="cosmetic-section-3">
 
-            <div class="templat_cosmetic"style="50%">
+            <div class="templat_cosmetic"style="width; 50%">
               <img class="cosmetics0img" src="../images/cosmetic_3.webp">
             </div>
 
-            <div class="templat_cosmetic"style="50%">
+            <div class="templat_cosmetic"style="width; 50%">
               <h1 class="h1cosmeticsss">Don’t let high-intent online<br> shoppers slip away</h1>
 
               <div class="cosmetis_w3">
@@ -668,7 +256,7 @@ h1.h1cosmetic_0 {
       <section class="sec-product">
         <div class="container">
           <div class="cosmetic-section4">
-            <div class="temp_cosmetic"style="50%">
+            <div class="temp_cosmetic"style="width; 50%">
               <h1 class="h1cosmetic-page">Keep your shoppers engaged to<br> drive conversions</h1>
 
               <div class="cosmetis">
@@ -688,7 +276,7 @@ h1.h1cosmetic_0 {
               <a href="TrialPage.html"><button class="sing_today">Signup Today</button></a>
             </div>
 
-            <div class="temp_cosmetic"style="50%">
+            <div class="temp_cosmetic"style="width; 50%">
               <img class="cosmeticsproduct" src="../images/cosmetic_4.webp">
             </div>
           </div>
@@ -700,11 +288,11 @@ h1.h1cosmetic_0 {
         <div class="container">
           <div class="cosmetic-section5">
 
-            <div class="cosmeticss_p1"style="50%">
+            <div class="cosmeticss_p1"style="width; 50%">
               <img class="cosmeticcss_img" src="../images/cosmetic_5.webp">
             </div>
 
-            <div class="cosmeticss_p1"style="50%">
+            <div class="cosmeticss_p1"style="width; 50%">
               <h1 class="h1tag_cosmetic">Offer personalized shopping <br>experience across customer <br>lifecycle to
                 boost retention and<br> loyalty</h1>
 
@@ -740,7 +328,7 @@ h1.h1cosmetic_0 {
 
       <div class="container">
         <div class="cosmetics-pro-section">
-        <div class="cosmetic-product-6"style="50%";>
+        <div class="cosmetic-product-6"style="width; 50%";>
           <p class="italic_tag"><i><b>Isak</b> is a fragrance house dedicated to the<br>
                                  creation of unrivalled niche Indian artisanal<br>
                                   fragrances of rare notes and blends that<br>
@@ -766,14 +354,14 @@ h1.h1cosmetic_0 {
       </div>
          
         </div>
-        <div class="cosmetic-product-6"style="50%";>
+        <div class="cosmetic-product-6"style="width; 50%";>
           <img class="product-img6" src="../images/cosmetic_6.webp">
         </div>
 
         </div>
       </div>
 
-
+       
       <div class="envelope-cosmetic">
         <h4 class="platform">Seamless integration with 15+ popular business platforms</h4>
         <div class="img-elemmmant_icon">
@@ -794,12 +382,13 @@ h1.h1cosmetic_0 {
           <img class="frame_product" src="../images/Frame15.png" alt="Image 15">
         </div>
       </div>
+  
 
 
       <section class="se-product">
         <div class="container">
           <div class="cosmetic-1tag">
-            <div class="temp_7img"style="50%">
+            <div class="temp_7img"style="width; 50%">
               <h1 class="h1cosmetic_0">Why use WhatsApp for beauty<br> and cosmetics eCommerce?</h1>
 
               <div class="cosmetis_tag10">
@@ -828,12 +417,160 @@ h1.h1cosmetic_0 {
               </div>
             </div>
 
-            <div class="temp_7img"style="50%">
+            <div class="temp_7img"style="width; 50%">
               <img class="cosmeticimg_0" src="../images/cosmetic_7.jpg">
             </div>
           </div>
         </div>
       </section>
-</body>
 
-</html>
+
+      <section class="redius_section">
+        <div class="container-fluid">
+            <div class="radius-tag">
+
+              <div class="radius-1tag">
+                <h3 class="cosmetics-brand">Sell more and grow your beauty<br> and cosmetics brand online with<br> WhatsApp.</h3>
+                <h5 class="brand-1">Get started with the WhatsApp Business API using Interakt today</h5>
+                <a href="TrialPage.html"><button class="starttrial">Start for Free</button></a>
+                <h6 class="brand_2" style="margin-top: 8px;"><i>No Credit Card Required*</i></h6>
+              </div>
+
+              <div class="radius-1tag"style="width; 50%">
+                <img class="brand-img" src="../images/cosmetic_8.png">
+              </div>
+            </div>
+        </div>
+      </section>
+
+        <!-- */box sizing code*/ -->
+
+        <section>
+          <div class="container">
+            <div main class="element-html">
+              <div class="box">
+                   <h2 class="box-sizing">Get Started with Interakt Today</h2>
+                <div class="w3box">
+                  <p class="abc">Drive Sales & Customer Experience </p>
+                  <p class="abc">No Set-up Costs</p>
+                  <p class="abc">No Surcharge on Notificationss</p>
+                </div>
+                  <a href="https:/www.interakt.shop/" target="blank"><button class="botton-element">Try Interakt For Free
+                  </button></a>
+                 <h2 class="element-tag">Get More Question?</h2>
+                 <a href="https:/www.interakt.shop/" target="blank"></a><button class="button0tag">Get A Live Demo</button>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <!-- footer section -->
+        <section class="footer" style="background: #014d3e ;">
+          <div class="container-fluid p-0">
+            <div class="container">
+              <div class="row pt-5">
+                <div class="col-lg-5 col-md-6 text-white">
+                  <img src="../images/logo-removebg-preview.png" alt="logo" width="250" />
+                  <div class="jioproduct">
+                    <img src="../images/footer img 2.png" width="290" class="pt-3" />
+                  </div>
+                  <div class="jioproduct">
+                    <img src="../images/footer img 3.png" width="290" class="pt-3" />
+                  </div>
+                  <div class="footer-text pt-2">
+                    <p class="text-white" style="font-size: 17px">
+                      Interakt is a Jio Haptik Product <br />Logo Building
+                      Intelligent Virtual Assistants for Businesses
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 text-white">
+                  <div class="title d-inline-block">
+                    <h4 class="mb-3">Interakt</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Get a Live Demo</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Partner with Us</a></li>
+                      <li><a href="#">Privacy Policyo</a></li>
+                      <li><a href="#">Terms & condition</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 text-white">
+                  <div class="title d-inline-block">
+                    <h4 class="mb-3">Quick Help Links</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Get a Live Demo</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Partner with Us</a></li>
+                      <li><a href="#">Privacy Policyo</a></li>
+                      <li><a href="#">Terms & condition</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-white">
+                  <div class="title d-inline-block">
+                    <h4 class="mb-3">Why Interakt</h4>
+                    <ul class="list-unstyled">
+                      <p>Interakt vs. Bitespeed</p>
+                      <p>interakt vs. Bitespeed</p>
+                      <p>Interakt vs. Delightchat</p>
+                      <p>Interakt vs. Limechat</p>
+                      <p>Interakt vs.</p>
+                      <p>Businessonbot</p>
+                    </ul>
+                    <div class="social-icon">
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="#"><img src="../images/Youtube icon.webp" width="30px" /></a>
+                        </li>
+                        <li>
+                          <a href="#"><img src="../images/Twitter icon.webp" width="30px" /></a>
+                        </li>
+                        <li>
+                          <a href="#"><img src="../images/facebook icon.webp" width="30px" /></a>
+                        </li>
+                        <li>
+                          <a href="#"><img src="../images/Instagam icon.webp" width="30px" /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <img src="../images/footer play img.webp" width="40px" class="ps-3" />
+                    <img src="../images/footer apple logo.webp" width="40px" class="ps-3" />
+                    <img src="../images/footer sotify logo.webp" width="40px" class="ps-3" />
+                  </div>
+                  <div class="col-lg-12 text-center">
+                    <h4 class="pt-3 text-white">
+                      India | Singapore | Indonesia | USA | Philippines | Africa
+                    </h4>
+                  </div>
+                  <div class="col-lg-12 text-center text-white pt-3">
+                    <span>Copyright © Jio Haptik Technologies Limited 2022 | All
+                      rights</span>
+                    reserved
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+  
+  </body>
+  <script src="https:/cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https:/cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+  </html>

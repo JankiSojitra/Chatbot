@@ -14,22 +14,65 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container">
-      <a href="../Templates/Index.html" id="img"><img src="../images//logo.jpg" width="200px" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupporteddContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <a href="../Templates/Index.html" id="img"
+        ><img src="../images/logo.jpg" width="200px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupporteddContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Solution</a>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+              >Solution</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a href="">By Industries &raquo</a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../Templates/Solution_page_1.html"
+                      >B2B</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../Templates/solution_cosmetic_page.html"
+                      >Beauty & cosmetics Brands</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../Templates/solution_spa_saloons.html"
+                      >Spas and Salons</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Templates/Integration.html">Integration</a>
+            <a class="nav-link" href="../Templates/Integration.html"
+              >Integration</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Templates/Pricing.html">Pricing</a>
+            <a class="nav-link" href="/Templates/Pricing.html">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link">Resources</a>
@@ -41,8 +84,10 @@
             <a class="nav-link" href="../Templates/Login.html">Login</a>
           </li>
         </ul>
-        <button class="btn main-btn" type="submit">
-          <a href="../Templates/TrialPage.html" id="button"> start Free Trial</a>
+        <button class="btn main-btn p-3" type="submit">
+          <a id="button" href="../Templates/TrialPage.html"
+            >start Free trial</a
+          >
         </button>
       </div>
     </div>

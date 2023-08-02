@@ -36,7 +36,23 @@
   .navbar {
     padding: 6px;
   }
-
+  .dropdown-menu li {
+    position: relative;
+  }
+  
+  .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+  }
   #img:hover {
     background-color: #fff;
   }
@@ -506,4 +522,254 @@
     float: left;
     padding: 0px 9px;
     border-right: 3px solid #fff;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .disply-solution {
+      display: block;
+      justify-content: center;
+      margin-top: 28%;
+  }
+  img.b2b.img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+button.try\.inkart {
+    padding: 10px 10px;
+    border: transparent;
+    border-radius: 7px;
+    background-color: #fab534;
+    margin-right: 25px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+button.get_live {
+  padding: 8px 22px;
+  border: 2px solid #fab534;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  width: 100%;
+}
+.fafa-solution {
+  display: block;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.icon-heading {
+  margin-top: 40px;
+  text-align: center;
+}
+.flex-solution {
+  display: block;
+  margin-top: 60px;
+}
+.img-paragraph {
+    display: block;
+    margin-top: 2%;
+    justify-content: center;
+    background-color: #cbf2e4;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+img.wechat {
+  width: 100%;
+  height: auto;
+}
+img.b2b0-img {
+  width: 100%;
+  height: auto;
+}
+h3.b2b-whatsapp {
+  margin-top: 35px;
+  font-size: 22px;
+  font-family: system-ui;
+  font-weight: 600;
+}
+.section-solution {
+  display: block;
+  margin-top: 2%;
+}
+h3.convercation {
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 22px;
+}
+img.wecha0 {
+  width: 100%;
+  height: auto;
+}
+.section-1page {
+  display: block;
+  margin-top: 2%;
+  background-color: #fff2da;
+  padding-top: 30px;
+  padding-bottom: 23px;
+}
+img.phone-o {
+  width: 100%;
+  height: auto;
+}
+.section-tag3 {
+  display: block;
+  margin-top: 2%;
+}
+img.wechat-section {
+  width: 100%;
+  height: auto;
+}
+.b2b-sales {
+    display: block;
+    justify-content: center;
+    background-color: #004c3d;
+    padding-top: 51px;
+    padding-bottom: 2%;
+}
+h3.b2b-cycle {
+  color: white;
+  margin-top: 26px;
+  font-size: 25px;
+  margin-right: 23px;
+}
+img.wechat-solution {
+  width: 100%;
+  height: 317px;
+}
+.box {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 3px 0 13px -1px grey;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+.w3box {
+  display: block;
+  justify-content: center;
+  padding-top: 32px;
+  margin-bottom: 15px;
+}
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .disply-solution {
+      display: block;
+      margin-top: 14%;
+  }
+  i.fa.fa-mouse-pointer {
+    color: white;
+    background-color: #004c3d;
+    padding: 29px;
+    border: transparent;
+    border-radius: 40px;
+    padding-left: 27px;
+    margin-right: 35px;
+    padding-bottom: 21px;
+}
+i.fa.fa-envelope-square {
+  color: white;
+  background-color: #fab534;
+  padding: 26px;
+  border: transparent;
+  border-radius: 40px;
+  /* padding-left: 22px; */
+  margin-left: 0px;
+  margin-right: 35px;
+}
+i.fa.fa-smile-o {
+  color: white;
+  background-color: rgb(45, 185, 45);
+  padding: 26px;
+  border: transparent;
+  border-radius: 40px;
+  padding-left: 23px;
+  margin-left: 0px;
+  margin-right: 35px;
+}
+i.fa.fa-bell {
+  color: white;
+  background-color: rgb(46, 46, 233);
+  padding: 27px;
+  border: transparent;
+  border-radius: 40px;
+  padding-left: 20px;
+  margin-left: 0px;
+  margin-right: 35px;
+}
+.flex-solution {
+  display: block;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+}
+.img-paragraph {
+  display: block;
+  margin-top: 2%;
+  justify-content: center;
+  background-color: #cbf2e4;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.solution-page-1img img {
+  display: block;
+  margin: 0 auto;
+}
+.page-1-paragraph {
+  text-align: center;
+}
+.section-solution {
+    display: block;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+}
+.section-1page {
+  display: block;
+  justify-content: center;
+  margin-top: 2%;
+  background-color: #fff2da;
+  padding-top: 30px;
+  padding-bottom: 23px;
+  text-align: center;
+}
+.section-tag3 {
+  display: block;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: center;
+}
+.b2b-sales {
+  display: block;
+  justify-content: center;
+  background-color: #004c3d;
+  padding-top: 51px;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.box {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 3px 0 13px -1px grey;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+.w3box {
+    display: block;
+    justify-content: center;
+    padding-top: 32px;
+    margin-bottom: 15px;
+}
   }
