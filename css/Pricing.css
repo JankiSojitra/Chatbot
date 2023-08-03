@@ -329,6 +329,14 @@ input[type="checkbox"] {
   width: 0;
   visibility: hidden;
 }
+.image-elemant-2 img {
+  width: 11%;
+  height: auto;
+  margin: 13px;
+  background-color: white;
+  border: none;
+  border-radius: 19px;
+}
 
 label {
   cursor: pointer;
@@ -405,7 +413,47 @@ label:active:after {
   width: 17rem;
   height: 60rem;
 }
+h1.faqa {
+  text-align: center;
+  font-size: 51px;
+  padding-bottom: 30px;
+  padding-top: 33px;
+  color: white;
+}
+.accordion-item {
+  margin-bottom: 1rem;
+}
+p.font-ptag {
+  font-size: 11px;
+}
+.accordion {
+  width: 93%;
+  display: block;
+  margin-left: 4%;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+}
 
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #212529 !important;
+  font-size: 13PX;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.accordion-body {
+  font-size: 17px;
+  font-weight: 600;
+}
 .emtag {
   font-size: 13px;
   line-height: 1.3;

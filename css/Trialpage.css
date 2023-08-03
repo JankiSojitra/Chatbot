@@ -20,9 +20,13 @@ h1.start-trial {
 
 .fafa-section {
   display: flex;
-  margin-left: 77px;
+  margin-left: 55px;
   width: 70%;
   line-height: 2pc;
+}
+span.ps {
+  padding-right: 5px;
+  padding-left: 3px;
 }
 .element-google {
   display: flex;
@@ -65,8 +69,15 @@ span.elemnt-shopify {
   font-family: sans-serif;
   font-size: 20px;
 }
+.g2-img {
+  padding-bottom: 20px;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-input#Work\ Mail {
+input#form-field-email {
   margin-bottom: 10px;
   width: 100%;
   padding: 7px;
@@ -76,14 +87,14 @@ input#Work\ Mail {
 
 }
 
-input#First\ name {
+input#form-field-First_name {
   padding: 9px;
   color: gray;
   background-color: lightgray;
   border: transparent;
   width: 50%;
 }
-input#Last\ name {
+input#form-field-Last_name  {
   border: transparent;
   color: gray;
   background-color: lightgray;
@@ -91,14 +102,8 @@ input#Last\ name {
   margin-left: 25px;
   width: 50%;
 }
-
-.g2-img {
-  padding-left: 30px;
-}
-
 img.apple-img {
-  margin-left: 27px;
-  margin-right: 19px;
+  padding-right: 4px;
 }
 
 .display-section {
@@ -144,7 +149,13 @@ a.nav-link {
 }
 
 .navbar {
-  padding: 0;
+  padding: 6px;
+}
+
+button.btn.main-btn {
+  background-color: #fab534;
+  padding: 0 !important;
+  margin-left: 10px;
 }
 .dropdown-menu li {
   position: relative;
@@ -164,16 +175,19 @@ a.nav-link {
   display: block;
 }
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
+.navbar a:hover {
+  background: #05a68b;
+  color: #fff;
+  border-radius: 25px;
 }
 
-.navbar li {
-  position: relative;
+#img:hover {
+  background-color: #fff;
+}
+
+#button:hover {
+  background: #fab534;
+  color: #000;
 }
 
 .navbar a,
@@ -187,119 +201,19 @@ a.nav-link {
   white-space: nowrap;
   transition: 0.3s;
   text-decoration: none;
-  padding: 6px 30px;
+  padding: 8px 17px !important;
 }
 
-.navbar a:hover {
-  background: #05a68b;
-  color: white;
-  border-radius: 25px;
-}
-
-.main-btn:hover {
-  background-color: #fab534 !important;
+.sub-btn {
+  border-radius: 10px;
+  background-color: #f8b434;
   color: #000 !important;
+  font-size: 16px;
+  padding: 0px 20px;
+  line-height: 10px;
+  padding-left: 1px;
 }
 
-#img:hover {
-  background: #fff;
-}
-
-#button:hover {
-  background: #fab534;
-  color: #000;
-}
-
-#button {
-  padding: 7px 18px;
-}
-
-/* button.btn.main-btn {
-  background-color: #fab534;
-  margin-right: -29px !important;
-  padding: 9px 26px 7px 0px!important;
-} */
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar .getstarted,
-.navbar .getstarted:focus {
-  padding: 8px 20px;
-  margin-left: 30px;
-  border-radius: 50px;
-  color: #fff;
-  font-size: 14px;
-  border: 2px solid #47b2e4;
-  font-weight: 600;
-}
-
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #31a9e1;
-}
-
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-  border-radius: 4px;
-}
-
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  font-weight: 500;
-  color: #0c3c53;
-  text-decoration: none;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #47b2e4;
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -477,7 +391,7 @@ p.abc {
 }
 
 .box {
-  width: 55%;
+  width: 65%;
   text-align: center;
   background-color: white;
   border: 0.5px solid grey;
@@ -673,7 +587,7 @@ span.elemnt-shopify {
     font-size: 14px;
   }
 
-  input#Work\ Mail {
+  input#form-field-email {
     margin-bottom: 10px;
     width: 100%;
     padding: 7px;
@@ -682,7 +596,7 @@ span.elemnt-shopify {
     color: gray;
   }
 
-  input#First\ name {
+  input#form-field-First_name  {
     padding: 2px;
     color: gray;
     background-color: lightgray;
@@ -690,7 +604,7 @@ span.elemnt-shopify {
     width: 100%;
   }
 
-  input#Last\ name {
+  input#form-field-Last_name  {
     border: transparent;
     color: gray;
     background-color: lightgray;
@@ -808,7 +722,7 @@ span.elemnt-shopify {
     height: 0px;
   }
 
-  input#Work\ Mail {
+  input#form-field-email {
     margin-bottom: 10px;
     width: 100%;
     padding: 7px;
@@ -817,7 +731,7 @@ span.elemnt-shopify {
     color: gray;
   }
 
-  input#First\ name {
+  input#form-field-First_name  {
     padding: 7px;
     color: gray;
     background-color: lightgray;
@@ -826,7 +740,7 @@ span.elemnt-shopify {
     margin-right: 10px;
   }
 
-  input#Last\ name {
+  input#form-field-Last_name  {
     border: transparent;
     color: gray;
     background-color: lightgray;
@@ -892,7 +806,7 @@ span.elemnt-shopify {
     margin-left: 0px !important;
   }
 
-  input#First\ name {
+  input#form-field-First_name  {
     padding: 9px;
     color: gray;
     background-color: lightgray;
@@ -900,8 +814,8 @@ span.elemnt-shopify {
     margin-bottom: 35px;
     padding-right: 12%;
   }
-
-  input#Last\ name {
+ 
+  input#form-field-Last_name  {
     border: transparent;
     color: gray;
     background-color: lightgray;
