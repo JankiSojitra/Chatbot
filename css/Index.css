@@ -538,6 +538,11 @@ h2.logo1 {
   font-family: sans-serif;
 }
 
+.d-flex.align-items-baseline.box {
+  width: 100%;
+  text-align: center;
+  padding-top: 9px;
+}
 h3.logo2 {
   text-align: center;
   font-size: 23px;
